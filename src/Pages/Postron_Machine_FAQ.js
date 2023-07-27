@@ -1,10 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const Postron_Machine_FAQ = () => {
     return (
         <div className="flex items-center justify-center h-screen">
-            <Link to="/">Go back to home</Link>
             <div className="bg-white">
                 <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
                     <h2 className="text-2xl font-semibold">

@@ -1,35 +1,34 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { VideoCameraIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 
 const features = [
   {
     name: 'POSTRON 点餐机常见问题解答',
     description:
-      'Included the questions about basic description of the POSTRON machine and introduction of each feature',
-    icon: CloudArrowUpIcon,
+      '内容包含了每个按键以及功能的详细讲解，如何安装及使用，如何下订单取消订单，如何选择支付方式等等...',
+    icon: MagnifyingGlassIcon,
     url: '/pos-faq-page',
   },
   {
-    name: 'POSTRON machine tutorial',
+    name: 'POSTRON 点餐机讲解视频',
     description:
-      'Tutorial with step-by-step video to introduce the features.',
-    icon: LockClosedIcon,
+      '视频讲解',
+    icon: VideoCameraIcon,
     url: '',
   },
   {
-    name: 'POSTRON back office FAQ',
+    name: 'POSTRON 网页管理后台常见问题讲解',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      '内容包含了如何登陆后台，如何更改菜单设置，如何更改收银员登录PIN，以及如何查看报表等等...',
+    icon: MagnifyingGlassIcon,
     url: '',
   },
   {
-    name: 'POSTRON back office tutorial',
+    name: 'POSTRON 网页管理后台讲解视频',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
+      'Ethan一步步教会您',
+    icon: VideoCameraIcon,
     url: 'https://www.youtube.com/@postronPOSsystem',
   },
 ]
@@ -59,9 +58,8 @@ export default function Home() {
                   </div>
                   <div key={index}>
                     <Link to={feature.url}>
-                      <span className="text-green-400">{feature.name}</span>
+                      <span className="text-orange-400">{feature.name}</span>
                     </Link>
-                    <a href={feature.url} className="text-green-400">{feature.name}</a>
                   </div>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
