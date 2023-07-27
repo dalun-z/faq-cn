@@ -25,8 +25,8 @@
   .banner a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #0d233b;
-    color: #fff;
+    /* background-color: #0d233b; */
+    color: #a11717;
     border-radius: 4px;
     transition: background-color 0.2s ease;
   }
