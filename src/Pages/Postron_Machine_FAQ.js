@@ -5,8 +5,8 @@ const Postron_Machine_FAQ = () => {
         <div className="flex items-center justify-center h-screen">
             <div className="bg-white">
                 <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-                    <h2 className="text-2xl font-semibold">
-                        Frequently Asked Questions
+                    <h2 className="text-4xl font-semibold">
+                    POSTRON 点餐机常见问题解答
                     </h2>
                     <p className="mt-4 mb-8 text-gray-600">
                         React Interview Questions And Answers

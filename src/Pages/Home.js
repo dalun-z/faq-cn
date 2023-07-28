@@ -22,7 +22,7 @@ const features = [
     description:
       '内容包含了如何登陆后台，如何更改菜单设置，如何更改收银员登录PIN，以及如何查看报表等等...',
     icon: MagnifyingGlassIcon,
-    url: '',
+    url: '/web-faq-page',
   },
   {
     name: 'POSTRON 网页管理后台讲解视频',
