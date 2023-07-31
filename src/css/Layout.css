@@ -1,0 +1,15 @@
+/* Layout.css */
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Adjust the width of the sidebar as needed */
+    gap: 200px; /* Adjust the gap between the sidebar and main content as needed */
+  }
+  
+  .sidebar {
+    color:rgb(65, 15, 204);
+  }
+  
+  .main-content {
+    color: black;
+    background-color: rgb(175, 101, 101);
+  }
