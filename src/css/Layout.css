@@ -2,14 +2,16 @@
 .layout {
     display: grid;
     grid-template-columns: 200px 1fr; /* Adjust the width of the sidebar as needed */
-    gap: 200px; /* Adjust the gap between the sidebar and main content as needed */
+    gap: 100px; /* Adjust the gap between the sidebar and main content as needed */
   }
   
   .sidebar {
     color:rgb(65, 15, 204);
   }
-  
+
   .main-content {
-    color: black;
-    background-color: rgb(175, 101, 101);
+    width: 1500px;
+    color: rgb(197, 123, 123);
+    font-size: 12pt;
+    background-color: rgb(250, 134, 134);
   }

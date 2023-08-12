@@ -12,8 +12,8 @@ function App() {
       <Banner />
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/pos-faq-page' element={<Postron_Machine_FAQ/>}/>
-        <Route path='/web-faq-page' element={<Postron_Web_FAQ/>}/>
+        <Route path='/pos-faq-page' element={<Postron_Machine_FAQ />} />
+        <Route path='/web-faq-page/*' element={<Postron_Web_FAQ />} />
         <Route path='/web-faq-pages/*' element={<Postron_Web_FAQ />} />
       </Routes>
     </Router>
