@@ -27,7 +27,7 @@ const Postron_Web_FAQ = () => {
 
     const changeIcon = (child) => {
         return (
-            <span style={{ float: 'right' }}>{isSubMenu(child) ? 'v' : '>'}</span>
+            <span style={{ float: 'right' }}>{isSubMenu(child) ? '👆' : '👇'}</span>
         );
     }
 
@@ -50,8 +50,7 @@ const Postron_Web_FAQ = () => {
                 <Sidebar>
                     <Menu menuItemStyles={cerateButtonStyles()}>
                         <MenuItem onClick={() => handleContentChange('Intro')}>概要</MenuItem>
-                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS Settings</MenuItem>
-                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS Settings</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS機設定</MenuItem>
                         <MenuItem onClick={() => toggleSubMenu('菜品菜單')}>菜品菜單 {changeIcon('菜品菜單')}</MenuItem>
                         {isSubMenu('菜品菜單') && (
                             <MenuItem>
