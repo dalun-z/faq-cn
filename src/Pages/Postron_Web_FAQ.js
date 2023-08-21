@@ -48,8 +48,8 @@ const Postron_Web_FAQ = () => {
         <Layout
             sidebar={
                 <Sidebar>
-                    <Menu menuItemStyles={cerateButtonStyles()}>
-                        <MenuItem onClick={() => handleContentChange('Intro')}>概要</MenuItem>
+                    <Menu style={{'backgroundColor': 'white'}} menuItemStyles={cerateButtonStyles()}>
+                        <MenuItem onClick={() => handleContentChange('Intro')}>常見問題匯總</MenuItem>
                         <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS機設定</MenuItem>
                         <MenuItem onClick={() => toggleSubMenu('菜品菜單')}>菜品菜單 {changeIcon('菜品菜單')}</MenuItem>
                         {isSubMenu('菜品菜單') && (
