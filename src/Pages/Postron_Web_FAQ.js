@@ -3,6 +3,7 @@ import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import POS_Settings from '../Web_FAQs/POS_Settings';
 import Layout from '../Routes/Layout';
 import Intro from '../Web_FAQs/Intro';
+import Modifier from '../Web_FAQs/Modifier'
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
@@ -11,6 +12,7 @@ const Postron_Web_FAQ = () => {
     const contentMap = {
         Intro: <Intro />,
         POS_Settings: <POS_Settings />,
+        Modifier: <Modifier />,
     }
 
     const handleContentChange = ct => {
@@ -55,7 +57,7 @@ const Postron_Web_FAQ = () => {
                         {isSubMenu('菜品菜單') && (
                             <MenuItem>
                                 <Menu menuItemStyles={cerateButtonStyles()}>
-                                    <MenuItem onClick={() => handleContentChange('Intro')}>改碼組設置</MenuItem>
+                                    <MenuItem onClick={() => handleContentChange('Modifier')}>改碼組設置</MenuItem>
                                 </Menu>
                             </MenuItem>   
                         ) }
