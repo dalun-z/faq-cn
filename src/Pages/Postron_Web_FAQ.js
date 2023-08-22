@@ -4,6 +4,7 @@ import POS_Settings from '../Web_FAQs/POS_Settings';
 import Layout from '../Routes/Layout';
 import Intro from '../Web_FAQs/Intro';
 import Modifier from '../Web_FAQs/Modifier'
+import '../css/Layout.css'
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
@@ -29,18 +30,14 @@ const Postron_Web_FAQ = () => {
 
     const changeIcon = (child) => {
         return (
-            <span style={{ float: 'right' }}>{isSubMenu(child) ? '👆' : '👇'}</span>
+            <span style={{ float: 'right' }} >{isSubMenu(child) ? '👆' : '👇'}</span>
         );
     }
 
     const cerateButtonStyles = (additionalStyles = {}) => ({
         button: {
-            [`&.active`]: {
-                backgroundColor: '#0f1097',
-                color: '#b6c8d9',
-            },
             '&:hover': { 
-                backgroundColor: '#ed5f16', 
+                backgroundColor: '#ef8d32', 
                 color: 'white', 
             },
         },
@@ -49,18 +46,18 @@ const Postron_Web_FAQ = () => {
     return (
         <Layout
             sidebar={
-                <Sidebar>
-                    <Menu style={{'backgroundColor': 'white'}} menuItemStyles={cerateButtonStyles()}>
+                <Sidebar style={{height:'900px'}}>
+                    <Menu menuItemStyles={cerateButtonStyles()}>
                         <MenuItem onClick={() => handleContentChange('Intro')}>常見問題匯總</MenuItem>
                         <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS機設定</MenuItem>
                         <MenuItem onClick={() => toggleSubMenu('菜品菜單')}>菜品菜單 {changeIcon('菜品菜單')}</MenuItem>
-                        {isSubMenu('菜品菜單') && (
+                        {isSubMenu('菜品菜單') ? (
                             <MenuItem>
                                 <Menu menuItemStyles={cerateButtonStyles()}>
-                                    <MenuItem onClick={() => handleContentChange('Modifier')}>改碼組設置</MenuItem>
+                                    <MenuItem onClick={() => handleContentChange('Modifier')} >改碼組設置</MenuItem>
                                 </Menu>
                             </MenuItem>   
-                        ) }
+                        ) : null}
                     </Menu>
                 </Sidebar>
             }

@@ -12,7 +12,6 @@ const Banner = () => {
   return (
     <div className="banner">
         <img src={postronLogo} width={300} height={200} />
-        <p>Discover amazing products and services.</p>
 
         { isHomePage ? null : <Link to="/" >Home</Link> }
     </div>

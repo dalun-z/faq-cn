@@ -1,17 +1,24 @@
 /* Layout.css */
 .layout {
-    display: grid;
-    grid-template-columns: 200px 1fr; /* Adjust the width of the sidebar as needed */
-    gap: 100px; /* Adjust the gap between the sidebar and main content as needed */
+    display: flex;
+    grid-template-columns: 200px 1fr; /*  Adjust the width of the sidebar as needed */
+    gap: 80px; /* Adjust the gap between the sidebar and main content as needed */
   }
   
   .sidebar {
     color:rgb(65, 15, 204);
-    background-color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine !important;
   }
+
 
   .main-content {
     width: 1500px;
     color: rgb(7, 7, 7);
     font-size: 12pt;
+    flex:1
   }
+
+ 

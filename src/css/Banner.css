@@ -1,34 +1,25 @@
 /* Styles for the banner container */
 .banner {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: flex;
     padding: 20px;
-    background-color: #f89898;
+    background-color: #9aeee0;
     color: #915858;
   }
 
-  /* Styles for the banner title */
-  .banner h1 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  /* Styles for the banner description */
-  .banner p {
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  
   /* Styles for the link button */
   .banner a {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     /* background-color: #0d233b; */
     color: #a11717;
-    border-radius: 4px;
+    border-radius: 8px;
     transition: background-color 0.2s ease;
+    margin-left: 20px;
+    font-size: 13pt;
+
   }
   
   .banner a:hover {
