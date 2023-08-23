@@ -6,11 +6,11 @@
   }
   
   .sidebar {
-    color:rgb(65, 15, 204);
+    color:rgb(241, 120, 64);
     font-family: 'Noto Sans TC', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine !important;
+    background-color: #ebf3be !important;
   }
 
 
@@ -18,7 +18,7 @@
     width: 1500px;
     color: rgb(7, 7, 7);
     font-size: 12pt;
-    flex:1
+    flex:1;
   }
 
  

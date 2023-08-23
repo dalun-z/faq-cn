@@ -10,19 +10,19 @@ const Intro = () => {
     }
 
     return (
-        <div>
+        <div className='doc-content'>
             <div className="bg-white">
                 <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-                    <h2 className="text-4xl font-semibold">
+                    <h1 className="text-4xl font-semibold">
                         POSTRON 後台管理常见问题解答
-                    </h2>
+                    </h1>
                     <p className="mt-6 mb-4 text-gray-600">
                         {/* 如有別的疑問請直接聯係POSTRON的技術人員 */}
                     </p>
                     <div className="space-y-2">
                         <details className="w-full rounded-lg ring-1 ring-purple-600">
                             <summary className="px-4 py-6">
-                                a. 什麽是<strong>第一名稱</strong>與<strong>第二名稱</strong>
+                                a. 什麽是 <strong>第一名稱</strong> 與 <strong>第二名稱</strong>
                             </summary>
                             <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
                                 {getPics(8)} <br />
