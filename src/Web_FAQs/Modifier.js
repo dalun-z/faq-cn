@@ -71,7 +71,7 @@ const Modifier = () => {
                 </details>
                 <details className="w-full rounded-lg ring-1 ring-purple-600">
                     <summary className="px-4 py-6">
-                        6. 更改改碼組及其選項
+                        5. 更改改碼組及其選項
                     </summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
                         {getPics(6)} <br />
