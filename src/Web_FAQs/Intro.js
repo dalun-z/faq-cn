@@ -5,7 +5,7 @@ const Intro = () => {
 
     const getPics = (num) => {
         return (
-            <img src={require('../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
+            <img alt='' src={require('../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
         )
     }
 

@@ -4,7 +4,7 @@ import '../css/Doc.css'
 const OrderMenu = () => {
     const getPics = (num) => {
         return (
-            <img src={require('../images/POS_WEB_Images/menu/menu_' + num + '.png')} />
+            <img alt='' src={require('../images/POS_WEB_Images/menu/menu_' + num + '.png')} />
         )
     }
 

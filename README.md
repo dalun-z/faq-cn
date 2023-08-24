@@ -13,7 +13,7 @@ Below is the code template for Collapse Content:
 <div className="space-y-2">
     <details className="w-full rounded-lg ring-1 ring-purple-600">
         <summary className="px-4 py-6">
-            {/* Put The Title 1 Here  */}
+            {/* Put The Header 1 Here  */}
         </summary>
         <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
             
@@ -24,7 +24,7 @@ Below is the code template for Collapse Content:
 
     <details className="w-full rounded-lg ring-1 ring-purple-600">
         <summary className="px-4 py-6">
-            {/* Put The Title 2 Here  */}
+            {/* Put The Header 2 Here  */}
         </summary>
         <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
             
@@ -34,5 +34,14 @@ Below is the code template for Collapse Content:
     </details>
 </div>
 ```
-
 ---
+
+### getPics() Function
+
+```
+const getPics = (num) => {
+    return (
+        <img alt='' src={require('../images/POS_WEB_Images/combo/combo_' + num + '.png')} />
+    )
+}
+```
