@@ -60,6 +60,7 @@ const OrderMenu = () => {
                         {getPics(5)}
                     </span>
                 </details>
+
                 <details className="w-full rounded-lg ring-1 ring-purple-600">
                     <summary className="px-4 py-6">
                         2. 添加新的菜盤
@@ -69,8 +70,26 @@ const OrderMenu = () => {
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1. 關閉複製菜品分類：該方式為創建一個全新的菜盤，需要手動往菜盤添加菜品</h3>
                         {getPics(6)}
                         <br />
-                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜品分類：該方式可直接添加所創建的‘菜品類別’中的所有菜品</h3>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜品分類：該方式可直接自動添加所選的‘菜品類別’中的所有菜品到新建的菜盤中</h3>
                         {getPics(7)}
+                    </span>
+                </details>
+
+                <details className="w-full rounded-lg ring-1 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        3. 改變菜盤或菜品的展示順序
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1.將鼠標放在想要改變位置的菜盤上，這個例子中我們將鼠標放在‘商品’這個菜盤上</h3>
+                        {getPics(8)}
+                        <br />
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 按住鼠標左鍵，不要鬆開，然後輕輕滑動一下鼠標，此時圖標應變成淡綠色，并且該菜盤可隨意拖動</h3>
+                        {getPics(9)}
+                        <br/>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 3. 繼續按住鼠標左鍵，將該菜盤拖拽到想要放置的位置</h3>
+                        {getPics(10)}
+                        <br/>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 4. 對想要改變位置的菜品使用上述1-3同樣的方式即可</h3>
                     </span>
                 </details>
             </div>
