@@ -2,9 +2,9 @@
 
 
 
-## Code Template: ##
+## Code Templates: ##
 
-### Collapse Content
+### Collapse Content 
 ![ ](https://github.com/dalun-z/FAQ_PAGE/blob/master/src/images/readme_1.png)
 
 Below is the code template for Collapse Content:
