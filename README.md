@@ -1,8 +1,8 @@
-**Dev Log**
+***Dev Log***
 
 Code Template:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Collapse Content](https://github.com/dalun-z/FAQ_PAGE/blob/master/src/images/readme_1.png)
 ```
 <details className="w-full rounded-lg ring-1 ring-purple-600">
     <summary className="px-4 py-6">
