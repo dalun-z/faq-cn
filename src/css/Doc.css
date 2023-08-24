@@ -16,10 +16,12 @@ h3 {
     color:rgb(235, 94, 28);
     font-size: 16pt;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 p {
     font-weight: bold;
+    padding-left: 20px;
 }
 
 summary {
@@ -28,4 +30,8 @@ summary {
 
 .doc-content {
     padding-top: 40px;
+}
+
+.px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 {
+    padding-left: 20px;
 }

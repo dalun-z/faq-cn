@@ -71,7 +71,7 @@ const CategoryAndItem = () => {
                     <summary className="px-4 py-6">
                         3. 菜品設置的詳細解釋（帶*號為必填項）
                     </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
                         <h3>厨顯名稱</h3>
                         <p>此名稱將被後厨的打印機隨著訂單詳情打印出來是用以顯示在後厨以方便不同語言的厨師能夠理解</p> <br />
 
@@ -79,7 +79,7 @@ const CategoryAndItem = () => {
                         <p>
                             該條碼是用於在POS機上搜索該單品 <br />
                             比如：UPC條碼輸入值為‘1’，那麽在POS機的搜索功能上輸入‘1’的時候，就會顯示該單品， <br />
-                            <strong><span style={{ color: 'red' }}>*UPC條碼具有唯一性，不能有重複相同的條碼</span></strong>
+                            <span style={{ color: 'red' }}>*UPC條碼具有唯一性，不能有重複相同的條碼</span>
                         </p> <br />
 
                         <h3>描述信息</h3>
@@ -141,7 +141,7 @@ const CategoryAndItem = () => {
 
                         <br /> <br />
                         {getPics(6)}
-                    </p>
+                    </span>
                 </details>
             </div>
         </div>

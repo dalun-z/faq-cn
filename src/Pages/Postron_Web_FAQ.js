@@ -50,9 +50,10 @@ const Postron_Web_FAQ = () => {
         <Layout
             sidebar={
                 <Sidebar>
-                    <Menu menuItemStyles={commonItemStyles} rootStyles={{ backgroundColor: bgColor, height: '900px', paddingTop: '15px' }}>
+                    <Menu menuItemStyles={commonItemStyles} rootStyles={{ backgroundColor: bgColor, height: '1500px', paddingTop: '15px', paddingLeft: '10px' }}>
                         <MenuItem onClick={() => handleContentChange('Intro')}>常見問題匯總</MenuItem>
                         <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS機設定</MenuItem>
+
                         <SubMenu label="菜品菜單">
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 改碼組設置 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('CategoryAndItem')} > 菜品類別設置 </MenuItem>
@@ -61,6 +62,44 @@ const Postron_Web_FAQ = () => {
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('InvControl')} > 庫存設置 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Tag')} > 標簽管理 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('SpecSetting')} > 規格設定 </MenuItem>
+                        </SubMenu>
+
+                        <SubMenu label="點單設置">
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 自助點單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 網絡點單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 網絡訂單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 訂單評價 </MenuItem>
+                        </SubMenu>
+
+                        <SubMenu label="優惠設置">
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 優惠管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > Happy Hours </MenuItem>
+                        </SubMenu>
+
+                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>餐桌管理</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>打印機管理</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>員工管理</MenuItem>
+
+                        <SubMenu label="會員管理">
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 會員管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 推送管理 </MenuItem>
+                        </SubMenu>
+
+                        <SubMenu label="費用管理">
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 稅費設定 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 小費設定 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 其他費用設定 </MenuItem>
+                        </SubMenu>
+
+                        <SubMenu label="統計報表">
+
+                        </SubMenu>
+
+                        <SubMenu label="系統設置">
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 門店評論 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 基本設置 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 用戶組 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 單據打印模板 </MenuItem>
                         </SubMenu>
                     </Menu>
                 </Sidebar>
