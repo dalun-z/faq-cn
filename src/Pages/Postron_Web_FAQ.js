@@ -11,6 +11,7 @@ import Combo from '../Web_FAQs/Combo';
 import InvControl from '../Web_FAQs/InvControl';
 import Tag from '../Web_FAQs/Tag';
 import SpecSetting from '../Web_FAQs/SpecSetting';
+import Pictures from '../Web_FAQs/Pictures';
 
 import '../css/Layout.css'
 
@@ -27,6 +28,7 @@ const Postron_Web_FAQ = () => {
         InvControl: <InvControl />,
         Tag: <Tag />,
         SpecSetting: <SpecSetting />,
+        Pictures: <Pictures />,
     }
 
     const handleContentChange = ct => {
@@ -61,6 +63,7 @@ const Postron_Web_FAQ = () => {
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Combo')} > 套餐設置 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('InvControl')} > 庫存設置 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Tag')} > 標簽管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Pictures')} > 圖片關係 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('SpecSetting')} > 規格設定 </MenuItem>
                         </SubMenu>
 

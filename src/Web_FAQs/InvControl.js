@@ -16,34 +16,34 @@ const InvControl = () => {
 
             <h1>添加單品進入庫存</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         1. 跳轉至‘菜品類別設置’界面
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(2)}
                     </span>
                 </details>
 
-                <details className="w-10/12 rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         2. 選擇需要進行庫存管理的類別，選擇需要庫存管理的單品
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(3)}
                     </span>
                 </details>
 
-                <details className="w-10/12 rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         3. 點擊右上角的保存。很重要的一個步驟，否則您的操作將不會被保存下來
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(4)}
                     </span>
                 </details>
 
-                <details className="w-10/12 rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         4. 返回‘庫存管理’界面，這時就能看到剛剛所添加的單品已經加入了庫存管理（左側為類別名稱，右側為單品）
                     </summary>
@@ -59,7 +59,7 @@ const InvControl = () => {
                     <summary className="px-4 py-6">
                         1. 點擊需要調整庫存的單品
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(6)}
                     </span>
                 </details>
@@ -83,7 +83,7 @@ const InvControl = () => {
                     <summary className="px-4 py-6">
                         3. 刷新類型
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         <h3>日</h3> <br />
                         {getPics(8)} <br />
                         <h3>周</h3> <br />

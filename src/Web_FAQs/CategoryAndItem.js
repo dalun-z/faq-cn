@@ -27,22 +27,22 @@ const CategoryAndItem = () => {
             <h1>類別</h1>
             <h3>添加類別步驟：</h3>
             <div className="space-y-2">
-                <details className="w-full rounded-lg ring-1 ring-purple-600">
+            <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         1. 點擊屏幕右上角的加號來創建新的類別
                     </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(2)}
-                    </p>
+                    </span>
                 </details>
-                <details className="w-full rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         2. 輸入類別的基本信息然後點擊提交
                     </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(3)}
                         <br />
-                    </p>
+                    </span>
                 </details>
             </div>
             <br />
@@ -50,28 +50,28 @@ const CategoryAndItem = () => {
             <h1>菜品</h1>
             <h3>添加菜品步驟：</h3>
             <div className="space-y-2">
-                <details className="w-full rounded-lg ring-1 ring-purple-600">
+            <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         1. 點擊想要添加菜品的類別
                     </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(4)}
-                    </p>
+                    </span>
                 </details>
-                <details className="w-full rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         2. 點擊菜品部分的右上角的加號來為該類別添加新的菜品
                     </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(5)}
                         <br />
-                    </p>
+                    </span>
                 </details>
-                <details className="w-full rounded-lg ring-1 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         3. 菜品設置的詳細解釋（帶*號為必填項）
                     </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         <h3>厨顯名稱</h3>
                         <p>此名稱將被後厨的打印機隨著訂單詳情打印出來是用以顯示在後厨以方便不同語言的厨師能夠理解</p> <br />
 
