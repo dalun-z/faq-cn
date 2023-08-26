@@ -10,7 +10,7 @@ const OrderMenu = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1> <br />
+            <h1>概要</h1>
             <p>
                 該界面主要是設置菜單，以及為菜單增添新的菜盤以及菜品。<br />
                 設置好的菜單將會以同樣的順序展現在POS機上 <br />
