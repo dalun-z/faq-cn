@@ -1,11 +1,11 @@
 import React from 'react'
-import '../css/Doc.css'
+import '../../css/Doc.css'
 
 const Intro = () => {
 
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
+            <img alt='' src={require('../../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
         )
     }
 

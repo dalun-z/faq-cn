@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 
-import POS_Settings from '../Web_FAQs/POS_Settings';
 import Layout from '../Routes/Layout';
-import Intro from '../Web_FAQs/Intro';
-import Modifier from '../Web_FAQs/Modifier';
-import CategoryAndItem from '../Web_FAQs/CategoryAndItem';
-import OrderMenu from '../Web_FAQs/OrderMenu';
-import Combo from '../Web_FAQs/Combo';
-import InvControl from '../Web_FAQs/InvControl';
-import Tag from '../Web_FAQs/Tag';
-import SpecSetting from '../Web_FAQs/SpecSetting';
-import Pictures from '../Web_FAQs/Pictures';
-
 import '../css/Layout.css'
+
+import POS_Settings from '../Web_FAQs/POS_Settings';
+
+import Intro            from '../Web_FAQs/Menu_Info/Intro';
+import Modifier         from '../Web_FAQs/Menu_Info/Modifier';
+import CategoryAndItem  from '../Web_FAQs/Menu_Info/CategoryAndItem';
+import OrderMenu        from '../Web_FAQs/Menu_Info/OrderMenu';
+import Combo            from '../Web_FAQs/Menu_Info/Combo';
+import InvControl       from '../Web_FAQs/Menu_Info/InvControl';
+import Tag              from '../Web_FAQs/Menu_Info/Tag';
+import SpecSetting      from '../Web_FAQs/Menu_Info/SpecSetting';
+import Pictures         from '../Web_FAQs/Menu_Info/Pictures';
+
+
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
@@ -21,6 +24,7 @@ const Postron_Web_FAQ = () => {
     const contentMap = {
         Intro: <Intro />,
         POS_Settings: <POS_Settings />,
+
         Modifier: <Modifier />,
         CategoryAndItem: <CategoryAndItem />,
         OrderMenu: <OrderMenu />,
@@ -29,6 +33,8 @@ const Postron_Web_FAQ = () => {
         Tag: <Tag />,
         SpecSetting: <SpecSetting />,
         Pictures: <Pictures />,
+
+        
     }
 
     const handleContentChange = ct => {

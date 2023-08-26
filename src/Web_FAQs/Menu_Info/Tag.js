@@ -1,12 +1,12 @@
 import React from 'react'
-import '../css/Doc.css'
+import '../../css/Doc.css'
 
 const Tag = () => {
     const getPics = (num) => {
         return (
             <img alt=''
                 // style={{width:'800px'}}
-                src={require('../images/POS_WEB_Images/tag/tag_' + num + '.png')} />
+                src={require('../../images/POS_WEB_Images/tag/tag_' + num + '.png')} />
         )
     }
 

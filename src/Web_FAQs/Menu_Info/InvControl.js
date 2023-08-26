@@ -1,10 +1,10 @@
 import React from 'react'
-import '../css/Doc.css'
+import '../../css/Doc.css'
 
 const InvControl = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../images/POS_WEB_Images/inv/inv_' + num + '.png')} />
+            <img alt='' src={require('../../images/POS_WEB_Images/inv/inv_' + num + '.png')} />
         )
     }
 
