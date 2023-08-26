@@ -74,16 +74,7 @@ const Combo = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        7. 層級添加完畢后，點擊右上角的加號為層級添加菜品
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
-                        {getPics(6)}
-                    </span>
-                </details>
-
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
-                        8. 添加菜品至該層級
+                        7. 添加菜品至該層級
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         <h3>
@@ -97,7 +88,7 @@ const Combo = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        9. 添加完菜品后請記得點擊右上方的‘保存套餐’按鍵
+                        8. 添加完菜品后請記得點擊右上方的‘保存套餐’按鍵，否則操作將不會被保存
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(8)}
