@@ -31,13 +31,3 @@ Below is the code template for Collapse Content:
 </div>
 ```
 ---
-
-### getPics() Function
-
-```
-const getPics = (num) => {
-    return (
-        <img alt='' src={require('../../images/POS_WEB_Images/Menu_Info/combo/combo_' + num + '.png')} />
-    )
-}
-```
