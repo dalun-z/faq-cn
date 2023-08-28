@@ -1,30 +1,33 @@
 import React, { useState } from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-
 import Layout from '../Routes/Layout';
 import '../css/Layout.css'
 
 import POS_Settings from '../Web_FAQs/POS_Settings';
 
-import Intro            from '../Web_FAQs/Menu_Info/Intro';
-import Modifier         from '../Web_FAQs/Menu_Info/Modifier';
-import CategoryAndItem  from '../Web_FAQs/Menu_Info/CategoryAndItem';
-import OrderMenu        from '../Web_FAQs/Menu_Info/OrderMenu';
-import Combo            from '../Web_FAQs/Menu_Info/Combo';
-import InvControl       from '../Web_FAQs/Menu_Info/InvControl';
-import Tag              from '../Web_FAQs/Menu_Info/Tag';
-import SpecSetting      from '../Web_FAQs/Menu_Info/SpecSetting';
-import Pictures         from '../Web_FAQs/Menu_Info/Pictures';
+import Intro from '../Web_FAQs/Menu_Info/Intro';
+import Modifier from '../Web_FAQs/Menu_Info/Modifier';
+import CategoryAndItem from '../Web_FAQs/Menu_Info/CategoryAndItem';
+import OrderMenu from '../Web_FAQs/Menu_Info/OrderMenu';
+import Combo from '../Web_FAQs/Menu_Info/Combo';
+import InvControl from '../Web_FAQs/Menu_Info/InvControl';
+import Tag from '../Web_FAQs/Menu_Info/Tag';
+import SpecSetting from '../Web_FAQs/Menu_Info/SpecSetting';
+import Pictures from '../Web_FAQs/Menu_Info/Pictures';
 
+import Shos from '../Web_FAQs/Order_Setting/shos';
+import Wol from '../Web_FAQs/Order_Setting/wol';
+import Wos from '../Web_FAQs/Order_Setting/wos';
+import OrderReview from '../Web_FAQs/Order_Setting/orderReview';
 
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
 
     const contentMap = {
-        Intro: <Intro />,
         POS_Settings: <POS_Settings />,
 
+        Intro: <Intro />,
         Modifier: <Modifier />,
         CategoryAndItem: <CategoryAndItem />,
         OrderMenu: <OrderMenu />,
@@ -34,7 +37,12 @@ const Postron_Web_FAQ = () => {
         SpecSetting: <SpecSetting />,
         Pictures: <Pictures />,
 
-        
+        shos: <Shos />,
+        wol: <Wol />,
+        wos: <Wos />,
+        OrderReview: <OrderReview />,
+
+
     }
 
     const handleContentChange = ct => {
@@ -74,10 +82,10 @@ const Postron_Web_FAQ = () => {
                         </SubMenu>
 
                         <SubMenu label="點單設置">
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 自助點單 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 網絡點單 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 網絡訂單 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 訂單評價 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('shos')} > 自助點單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('wos')} > 網絡點單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('wol')} > 網絡訂單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('OrderReview')} > 訂單評價 </MenuItem>
                         </SubMenu>
 
                         <SubMenu label="優惠設置">

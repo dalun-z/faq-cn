@@ -1,10 +1,12 @@
 import React from 'react'
 import '../../css/Doc.css'
 
-const wos = () => {
+// WEB Order Setting
+// 網絡點單
+const Wos = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/Menu_Info/combo/combo_' + num + '.png')} />
+            <img alt='' src={require('../../images/POS_WEB_Images/shos/shos_' + num + '.png')} />
         )
     }
 
@@ -15,4 +17,4 @@ const wos = () => {
     )
 }
 
-export default wos;
+export default Wos;

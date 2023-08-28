@@ -1,10 +1,12 @@
 import React from 'react'
 import '../../css/Doc.css'
 
-const orderReview = () => {
+// Order Review
+// 訂單評價
+const OrderReview = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/Menu_Info/combo/combo_' + num + '.png')} />
+            <img alt='' src={require('../../images/POS_WEB_Images/shos/shos_' + num + '.png')} />
         )
     }
 
@@ -15,4 +17,4 @@ const orderReview = () => {
     )
 }
 
-export default orderReview;
+export default OrderReview;
