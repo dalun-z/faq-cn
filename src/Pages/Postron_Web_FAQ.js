@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import Layout from '../Routes/Layout';
 import '../css/Layout.css'
+import '../css/Doc.css'
 
 import POS_Settings from '../Web_FAQs/POS_Settings';
 
@@ -20,6 +21,12 @@ import Wol from '../Web_FAQs/Order_Setting/wol';
 import Wos from '../Web_FAQs/Order_Setting/wos';
 import OrderReview from '../Web_FAQs/Order_Setting/orderReview';
 
+import Promo from '../Web_FAQs/On_Sale/promo';
+import HappyHour from '../Web_FAQs/On_Sale/happyHour';
+
+import TableMap from '../Web_FAQs/Table_Map';
+import Printers from '../Web_FAQs/Printers';
+import Employee from '../Web_FAQs/Employee';
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
@@ -42,6 +49,12 @@ const Postron_Web_FAQ = () => {
         wos: <Wos />,
         OrderReview: <OrderReview />,
 
+        Promo: <Promo />,
+        HappyHour: <HappyHour />,
+
+        TableMap: <TableMap />,
+        Printers: <Printers />,
+        Employee: <Employee />,
 
     }
 
@@ -84,17 +97,17 @@ const Postron_Web_FAQ = () => {
                         <SubMenu label="點單設置">
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('shos')} > 自助點單 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('wos')} > 網絡點單 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('wol')} > 網絡訂單 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('OrderReview')} > 訂單評價 </MenuItem>
+                            {/* <MenuItem style={commonItemStyles} onClick={() => handleContentChange('wol')} > 網絡訂單 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('OrderReview')} > 訂單評價 </MenuItem> */}
                         </SubMenu>
 
                         <SubMenu label="優惠設置">
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 優惠管理 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > Happy Hours </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Promo')} > 優惠管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('HappyHour')} > Happy Hours </MenuItem>
                         </SubMenu>
 
-                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>餐桌管理</MenuItem>
-                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>打印機管理</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('TableMap')}>餐桌管理</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('Printers')}>打印機管理</MenuItem>
                         <MenuItem onClick={() => handleContentChange('POS_Settings')}>員工管理</MenuItem>
 
                         <SubMenu label="會員管理">
