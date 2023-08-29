@@ -1,4 +1,6 @@
 import './css//App.css';
+import './css/Doc.css';
+import './css/Banner.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Postron_App_FAQ from './Pages/Postron_App_FAQ';

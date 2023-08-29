@@ -47,6 +47,11 @@ summary:hover {
     padding-left: 10px;
 }
 
+.home-bg {
+    height: 980px;
+    background-color: rgb(240, 173, 129);
+}
+
 /* .link-to-page:hover {
     border-radius: 24px;
     background-color: rgb(225, 236, 173);
@@ -57,13 +62,18 @@ summary:hover {
     text-decoration: underline;
 } */
 
+.header-title {
+    font-size: 14pt;
+    color: rgb(207, 87, 87)
+}
+
 .hl-text:hover {
     text-decoration: underline;
 }
 
 .rotate-img {
     border-radius: 24px;
-    animation: App-logo-spin infinite 10s linear;
+    animation: App-logo-spin infinite 8s linear;
 }
 
 .rotate-img:hover {

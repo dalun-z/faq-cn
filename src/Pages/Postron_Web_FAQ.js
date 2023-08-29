@@ -3,6 +3,7 @@ import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import Layout from '../Routes/Layout';
 import '../css/Layout.css'
 import '../css/Doc.css'
+import '../css/Banner.css';
 
 import POS_Settings from '../Web_FAQs/POS_Settings';
 

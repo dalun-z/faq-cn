@@ -36,7 +36,7 @@ const features = [
 
 export default function Home() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32 home-bg">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div style={{display: 'flex'}}>
           <img alt='' href="/" className='rotate-img' src={require('../images/Postron_Rotate_Logo.png')} width='100' height='100' style={{ marginRight: '1000px' }}/>
@@ -63,7 +63,7 @@ export default function Home() {
                   </div>
                   <div key={index}>
                     <Link to={feature.url}>
-                      <span className="text-orange-400">{feature.name}</span>
+                      <span className="header-title">{feature.name}</span>
                     </Link>
                   </div>
                 </dt>
