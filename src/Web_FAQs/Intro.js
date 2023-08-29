@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../css/Doc.css'
+import '../css/Doc.css'
 
 const Intro = () => {
 
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
+            <img alt='' src={require('../images/POS_WEB_Images/intro/intro_' + num + '.png')} />
         )
     }
 
@@ -35,7 +35,7 @@ const Intro = () => {
                                         比如說：設置改碼組時設置第一名稱為中文，第二名稱為英文，儅設置菜品名稱時也請保持同一個順序 <br />
                                         同時，第一名稱與第二名稱具有唯一性，不能出現兩個相同第一名稱或第二名稱的單品
                                     </span>
-                                </p>F
+                                </p>
                             </span>
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">

@@ -6,7 +6,7 @@ import '../css/Doc.css'
 
 import POS_Settings from '../Web_FAQs/POS_Settings';
 
-import Intro from '../Web_FAQs/Menu_Info/Intro';
+import Intro from '../Web_FAQs/Intro';
 import Modifier from '../Web_FAQs/Menu_Info/Modifier';
 import CategoryAndItem from '../Web_FAQs/Menu_Info/CategoryAndItem';
 import OrderMenu from '../Web_FAQs/Menu_Info/OrderMenu';

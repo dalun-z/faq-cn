@@ -5,28 +5,28 @@ import '../css/Doc.css';
 
 const features = [
   {
-    name: 'POSTRON 点餐机常见问题解答',
+    name: 'POS 点餐机常见问题解答',
     description:
       '内容包含了每个按键以及功能的详细讲解，如何安装及使用，如何下订单取消订单，如何选择支付方式等等...',
     icon: MagnifyingGlassIcon,
     url: '/pos-faq-page',
   },
   {
-    name: 'POSTRON 点餐机讲解视频',
+    name: 'POS 点餐机讲解视频',
     description:
       '视频讲解',
     icon: VideoCameraIcon,
     url: '',
   },
   {
-    name: 'POSTRON 网页管理后台常见问题讲解',
+    name: 'POSTRON 网页后台管理(back-office)常见问题讲解',
     description:
       '内容包含了如何登陆后台，如何更改菜单设置，如何更改收银员登录PIN，以及如何查看报表等等...',
     icon: MagnifyingGlassIcon,
     url: '/web-faq-page',
   },
   {
-    name: 'POSTRON 网页管理后台讲解视频',
+    name: 'POSTRON 网页后台管理(back-office)讲解视频',
     description:
       'Ethan一步步教会您',
     icon: VideoCameraIcon,
