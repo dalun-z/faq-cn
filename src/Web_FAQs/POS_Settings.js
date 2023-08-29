@@ -3,7 +3,7 @@ import React from 'react'
 const POS_Settings = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../images/POS_WEB_Images/pos_setting/ps_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../images/POS_WEB_Images/pos_setting/ps_' + num + '.png')} />
         )
     }
 
@@ -45,6 +45,8 @@ const POS_Settings = () => {
                             {getPics(2)} <br />
                             在啓動POS機時，改屏幕作爲主要界面。您可以通過拖拽和拉動圖標輕鬆地將它們安排到您喜歡的位置。<br />
                             通過將圖標拖放到左側，您可以自定義最合適你店鋪的功能。如果你不打算使用某些功能，您可以把相應的功能拖拽到右側 <br />
+                            下圖就是設置好的界面將在POS機上展示的界面：
+                            {getPics(6)}
                         </p>
                     </span>
                 </details>

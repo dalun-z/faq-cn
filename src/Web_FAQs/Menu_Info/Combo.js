@@ -4,7 +4,7 @@ import '../../css/Doc.css'
 const Combo = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/combo/combo_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../../images/POS_WEB_Images/combo/combo_' + num + '.png')} />
         )
     }
 

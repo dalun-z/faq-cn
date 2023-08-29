@@ -3,7 +3,7 @@ import React from "react";
 const Printers = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../images/POS_WEB_Images/printers/printer_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../images/POS_WEB_Images/printers/printer_' + num + '.png')} />
         )
     }
 

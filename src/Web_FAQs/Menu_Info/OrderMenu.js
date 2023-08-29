@@ -4,7 +4,7 @@ import '../../css/Doc.css'
 const OrderMenu = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/menu/menu_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../../images/POS_WEB_Images/menu/menu_' + num + '.png')} />
         )
     }
 
@@ -19,8 +19,8 @@ const OrderMenu = () => {
                 <br />&nbsp;&nbsp; 2. 藍色圈起的部分為菜單信息區塊，展示所選菜單包含的所有菜盤和菜品
             </p>
             {getPics(1)}  <br /><br />
-
-
+            <p>下圖為POS機展示的界面與順序：</p>
+            {getPics(11)}  <br /><br />
 
             <h1>菜單</h1>
             <div className="space-y-2">

@@ -4,8 +4,8 @@ import '../../css/Doc.css'
 const Pictures = () => {
     const getPics = (num) => {
         return (
-            <img alt='' 
-                // style={{width:'800px'}}
+            <img alt=''
+                className='doc-pics'
                 src={require('../../images/POS_WEB_Images/pic/pic_' + num + '.png')} />
         )
     }

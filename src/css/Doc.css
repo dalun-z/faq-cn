@@ -43,13 +43,18 @@ summary:hover {
     padding-top: 40px;
 }
 
+.doc-pics {
+    padding-left: 20px;
+}
+
 .space-y-2 {
     padding-left: 10px;
 }
 
 .home-bg {
     height: 980px;
-    background-color: rgb(240, 173, 129);
+    /* background-color: rgb(240, 173, 129); */
+    background-color: #e2eca9;
 }
 
 /* .link-to-page:hover {

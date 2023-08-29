@@ -5,7 +5,11 @@ const CategoryAndItem = () => {
 
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/category/cat_' + num + '.png')} />
+            <img 
+                alt='' 
+                className='doc-pics'
+                src={require('../../images/POS_WEB_Images/category/cat_' + num + '.png')} 
+            />
         )
     }
 

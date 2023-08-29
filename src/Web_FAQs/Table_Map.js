@@ -3,7 +3,7 @@ import React from "react";
 const TableMap = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../images/POS_WEB_Images/map/map_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../images/POS_WEB_Images/map/map_' + num + '.png')} />
         )
     }
 

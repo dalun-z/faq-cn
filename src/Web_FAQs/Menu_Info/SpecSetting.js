@@ -4,7 +4,7 @@ import '../../css/Doc.css'
 const SpecSetting = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/spec/spec_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../../images/POS_WEB_Images/spec/spec_' + num + '.png')} />
         )
     }
 
