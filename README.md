@@ -9,7 +9,7 @@
     node -v
     ```
 - npm v9.8.1 (or latest)
-    - After Node.js has downloaded and installed, run command in your `PowerShell`:
+    - After Node.js has downloaded and installed, run the following command in your `PowerShell`:
     ```
     npm install -g npm
     ```
@@ -18,7 +18,7 @@
     npm -v
     ```
 
-### Download the code & Run it
+### Download the code & Run the Web App
 - Open `PowerShell` on your Windows machine
 - Make sure you have installed `Node.js` and `npm` correctly
     - run the following command in your `PowerShell`:
@@ -44,7 +44,7 @@ cd FAQ_PAGE
 ```
 npm install
 ```
-- After package is installed, run the command:
+- After package is installed, to start the Web App, run the command:
 ```
 npm start
 ```
