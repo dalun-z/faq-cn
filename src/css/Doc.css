@@ -53,6 +53,10 @@ summary:hover {
     transition: background-color 0.4s ease-in;
 }
 
+.text-indigo-600:hover {
+    text-decoration: underline;
+}
+
 .rotate-img {
     border-radius: 24px;
     animation: App-logo-spin infinite 10s linear;
