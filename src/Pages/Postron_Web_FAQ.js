@@ -26,7 +26,7 @@ import HappyHour from '../Web_FAQs/On_Sale/happyHour';
 
 import TableMap from '../Web_FAQs/Table_Map';
 import Printers from '../Web_FAQs/Printers';
-import Employee from '../Web_FAQs/Employee';
+import Employee from '../Web_FAQs/employee';
 
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
@@ -108,7 +108,7 @@ const Postron_Web_FAQ = () => {
 
                         <MenuItem onClick={() => handleContentChange('TableMap')}>餐桌管理</MenuItem>
                         <MenuItem onClick={() => handleContentChange('Printers')}>打印機管理</MenuItem>
-                        <MenuItem onClick={() => handleContentChange('POS_Settings')}>員工管理</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('Employee')}>員工管理</MenuItem>
 
                         <SubMenu label="會員管理">
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 會員管理 </MenuItem>
