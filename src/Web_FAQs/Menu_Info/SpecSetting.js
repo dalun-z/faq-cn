@@ -59,10 +59,20 @@ const SpecSetting = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        5. 選擇完畢后點擊提交。
+                        5. 選擇完畢后點擊提交
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(5)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        6. 圖爲在POS機上展示的規格對應的界面以及其價格變化
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(7)}
+                        {getPics(8)}
                     </span>
                 </details>
 

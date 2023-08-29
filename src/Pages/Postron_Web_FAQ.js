@@ -122,7 +122,7 @@ const Postron_Web_FAQ = () => {
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Push')} > 推送管理 </MenuItem>
                         </SubMenu>
 
-                        <SubMenu label="費用管理">
+                        {/* <SubMenu label="費用管理">
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 稅費設定 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 小費設定 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 其他費用設定 </MenuItem>
@@ -136,7 +136,7 @@ const Postron_Web_FAQ = () => {
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 基本設置 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 用戶組 </MenuItem>
                             <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 單據打印模板 </MenuItem>
-                        </SubMenu>
+                        </SubMenu> */}
                     </Menu>
                 </Sidebar>
             }
