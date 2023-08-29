@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Postron_Machine_FAQ = () => {
+const Postron_App_FAQ = () => {
     return (
         <div></div>
     );
 };
 
-export default Postron_Machine_FAQ;
+export default Postron_App_FAQ;
