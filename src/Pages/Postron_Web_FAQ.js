@@ -28,6 +28,9 @@ import TableMap from '../Web_FAQs/Table_Map';
 import Printers from '../Web_FAQs/Printers';
 import Employee from '../Web_FAQs/employee';
 
+import Member from '../Web_FAQs/Members/Member';
+import Push from '../Web_FAQs/Members/Push';
+
 const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
 
@@ -55,6 +58,9 @@ const Postron_Web_FAQ = () => {
         TableMap: <TableMap />,
         Printers: <Printers />,
         Employee: <Employee />,
+
+        Member: <Member />,
+        Push: <Push />,
 
     }
 
@@ -111,8 +117,8 @@ const Postron_Web_FAQ = () => {
                         <MenuItem onClick={() => handleContentChange('Employee')}>員工管理</MenuItem>
 
                         <SubMenu label="會員管理">
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 會員管理 </MenuItem>
-                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Modifier')} > 推送管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Member')} > 會員管理 </MenuItem>
+                            <MenuItem style={commonItemStyles} onClick={() => handleContentChange('Push')} > 推送管理 </MenuItem>
                         </SubMenu>
 
                         <SubMenu label="費用管理">

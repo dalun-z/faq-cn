@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    color:rgb(224, 96, 10);
+    color: rgb(224, 96, 10);
     font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20pt;
     font-weight: bold;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    color:rgb(37, 139, 97);
+    color: rgb(37, 139, 97);
     font-size: 16pt;
     font-weight: bold;
     padding-left: 12px;
@@ -30,7 +30,7 @@ summary {
     color: rgb(120, 17, 216);
 }
 
-summary:hover{
+summary:hover {
     background-color: rgb(157, 231, 138);
     transition: background-color 0.4s ease-in;
 }
@@ -45,4 +45,29 @@ summary:hover{
 
 .space-y-2 {
     padding-left: 10px;
+}
+
+.link-to-page:hover {
+    border-radius: 24px;
+    background-color: rgb(225, 236, 173);
+    transition: background-color 0.4s ease-in;
+}
+
+.rotate-img {
+    border-radius: 24px;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+.rotate-img:hover {
+    background-color: rgb(224, 60, 10);
+    transition: background-color 0.4s ease-in;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

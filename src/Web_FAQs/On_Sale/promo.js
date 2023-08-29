@@ -40,6 +40,19 @@ const Promo = () => {
                         {getPics(3)}
                     </span>
                 </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        3. ‘是否二維碼優惠’ 與 ‘推送管理’ 的聯係
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        <h3>
+                            儅打開‘是否二維碼優惠’后，會在所有優惠列表的右側‘操作’欄下看到有多出一個QR Code的圖片 <br />
+                            <span style={{color:'red'}}>只有打開‘是否二維碼優惠’這個功能，才能夠在‘會員管理’下的‘推送管理’功能通過短信或Email推送該優惠給顧客</span>
+                        </h3>
+                        {getPics(6)}
+                    </span>
+                </details>
             </div>
         </div>
     )
