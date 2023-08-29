@@ -27,7 +27,7 @@ import HappyHour from '../Web_FAQs/On_Sale/happyHour';
 
 import TableMap from '../Web_FAQs/Table_Map';
 import Printers from '../Web_FAQs/Printers';
-import Employee from '../Web_FAQs/employee';
+import Employee from '../Web_FAQs/Employee';
 
 import Member from '../Web_FAQs/Members/Member';
 import Push from '../Web_FAQs/Members/Push';

@@ -4,11 +4,6 @@ import '../../css/Doc.css'
 // WEB Order List
 // 網絡訂單
 const Wol = () => {
-    const getPics = (num) => {
-        return (
-            <img alt='' src={require('../../images/POS_WEB_Images/wol/wol_' + num + '.png')} />
-        )
-    }
 
     return (
         <div>
