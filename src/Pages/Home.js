@@ -5,20 +5,6 @@ import '../css/Doc.css';
 
 const features = [
   {
-    name: 'POS 点餐机常见问题解答',
-    description:
-      '内容包含了每个按键以及功能的详细讲解，如何安装及使用，如何下订单取消订单，如何选择支付方式等等...',
-    icon: MagnifyingGlassIcon,
-    url: '/pos-faq-page',
-  },
-  {
-    name: 'POS 点餐机讲解视频',
-    description:
-      '视频讲解',
-    icon: VideoCameraIcon,
-    url: '',
-  },
-  {
     name: 'POSTRON 网页后台管理(back-office)常见问题及功能讲解',
     description:
       '内容包含了如何登陆后台，如何更改菜单设置，如何更改收银员登录PIN，以及如何查看报表等等...',
@@ -32,6 +18,22 @@ const features = [
     icon: VideoCameraIcon,
     url: 'https://www.youtube.com/@postronPOSsystem',
   },
+  {
+    name: 'POS 点餐机常见问题解答',
+    description:
+      '内容包含了每个按键以及功能的详细讲解，如何安装及使用，如何下订单取消订单，如何选择支付方式等等...',
+    icon: MagnifyingGlassIcon,
+    url: '/pos-faq-page',
+  },
+  {
+    name: 'POS 点餐机讲解视频',
+    description:
+      '视频讲解',
+    icon: VideoCameraIcon,
+    url: '',
+  },
+  
+  
 ]
 
 export default function Home() {
@@ -50,7 +52,7 @@ export default function Home() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             请通过以下方式联系技术部门如果您还有别的问题
             <br></br>
-            拨打 <a href="" className="text-indigo-600 hl-text">(800) 503-6222</a> 或发邮件至 <a href="" className="text-indigo-600 hl-text">support@postron.com</a>
+            拨打 <a href="" className="text-indigo-600 hl-text">1 (800) 503-6222</a> 或发邮件至 <a href="" className="text-indigo-600 hl-text">support@postron.com</a>
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
