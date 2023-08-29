@@ -68,7 +68,6 @@ export default function Home() {
                   </div>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
-                
               </div>
             ))}
           </dl>

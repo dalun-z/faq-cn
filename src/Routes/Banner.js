@@ -14,7 +14,7 @@ const Banner = () => {
   return (
     isHomePage ? null : (
       <div className="banner">
-        <img src={postronLogo} width={300} height={200} />
+        <img alt='' src={postronLogo} width={300} height={200} />
         <Link to="/" >Home</Link>
     </div>
     )

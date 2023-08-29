@@ -40,7 +40,7 @@ const Intro = () => {
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                             <summary className="px-4 py-6">
-                                b. 點擊POSTRON的App圖標后加載過程中發生的App閃退
+                                b. 在POS機上點擊POSTRON的App圖標后加載過程中發生的App閃退
                             </summary>
                             <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                                 <p>
@@ -58,7 +58,7 @@ const Intro = () => {
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                             <summary className="px-4 py-6">
-                                c. 點擊<strong>‘堂食’</strong>功能后導致的App閃退
+                                c. 在POS機上點擊<strong>‘堂食’</strong>功能后導致的App閃退
                             </summary>
                             <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                                 <p>

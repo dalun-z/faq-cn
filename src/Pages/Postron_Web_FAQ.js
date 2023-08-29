@@ -129,7 +129,6 @@ const Postron_Web_FAQ = () => {
                         </SubMenu>
 
                         <SubMenu label="統計報表">
-
                         </SubMenu>
 
                         <SubMenu label="系統設置">
