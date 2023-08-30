@@ -25,7 +25,7 @@ const Printers = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        2. 填寫必填的打印機信息，POS機通過此處的MAC Address在LAN中尋找該打印機
+                        2. 填寫必填的打印機信息，POS機將會通過此處的MAC Address在LAN中尋找該打印機
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(2)}

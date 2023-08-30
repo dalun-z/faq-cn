@@ -1,9 +1,13 @@
 import React from "react";
 
 const Employee = () => {
-    const getPics = (num) => {
+    const getPics = (num, additionalStyle) => {
         return (
-            <img alt='' className='doc-pics' src={require('../images/POS_WEB_Images/employee/employee_' + num + '.png')} />
+            <img 
+                alt='' 
+                className='doc-pics' 
+                style={additionalStyle} 
+                src={require('../images/POS_WEB_Images/employee/employee_' + num + '.png')} />
         )
     }
 
