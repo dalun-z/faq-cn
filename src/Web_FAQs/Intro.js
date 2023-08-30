@@ -35,9 +35,9 @@ const Intro = () => {
                                         比如說：設置改碼組時設置第一名稱為中文，第二名稱為英文，儅設置菜品名稱時也請保持同一個順序 <br />
                                         同時，第一名稱與第二名稱具有唯一性，不能出現兩個相同第一名稱或第二名稱的單品
                                     </span> <br/> <br/> <br/>
-                                    <h3>可在POS機中的‘設定’功能裏改變POS機所顯示的名稱</h3>
-                                    {getPics(9)}
                                 </p>
+                                <h3>可在POS機中的‘設定’功能裏改變POS機所顯示的名稱</h3>
+                                    {getPics(9)}
                             </span>
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">

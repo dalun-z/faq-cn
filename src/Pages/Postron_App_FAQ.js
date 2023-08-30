@@ -6,7 +6,7 @@ import '../css/Doc.css'
 import '../css/Banner.css';
 
 
-import Intro from '../Web_FAQs/Intro';
+import Intro from '../App_FAQs/Intro';
 
 const Postron_App_FAQ = () => {
     const [content, setContent] = useState('Intro');
