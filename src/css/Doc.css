@@ -32,8 +32,10 @@ summary {
 }
 
 summary:hover {
-    background-color: rgb(157, 231, 138);
+    background-color: #daeff3;
     transition: background-color 0.4s ease-in;
+    /* color:rgb(223, 66, 66);
+    transition: color 0.4s ease-in; */
 }
 
 .box-content {
@@ -54,19 +56,17 @@ summary:hover {
 
 .home-bg {
     height: 980px;
-    /* background-color: rgb(240, 173, 129); */
-    background-color: #e2eca9;
+    background-color: rgb(247, 228, 215);
+    /* background-image: url("../images/bg-image.jpg");
+    background-position: center;
+    background-size: cover; */
 }
 
-/* .link-to-page:hover {
-    border-radius: 24px;
-    background-color: rgb(225, 236, 173);
-    transition: background-color 0.4s ease-in;
+.header-bg-img {
+    /* background-image: url("https://www.postron.com/img/content/pages/2acf41dc-9d5e-07de-28fc-83a09da4a79b.webp"); */
+    background-position: center;
+    background-size: cover;
 }
-
-.text-indigo-600:hover {
-    text-decoration: underline;
-} */
 
 .header-title {
     font-size: 14pt;
@@ -78,6 +78,11 @@ summary:hover {
 }
 
 .rotate-img {
+    margin-top: 50px;
+    display: inline;
+}
+
+/* .rotate-img {
     border-radius: 24px;
     animation: App-logo-spin infinite 9s linear;
 }
@@ -85,13 +90,13 @@ summary:hover {
 .rotate-img:hover {
     background-color: rgb(224, 60, 10);
     transition: background-color 0.4s ease-in;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-}
+} */
