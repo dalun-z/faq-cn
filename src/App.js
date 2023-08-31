@@ -11,7 +11,6 @@ import Postron_Web_FAQ from './Pages/Postron_Web_FAQ';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  // Simulate loading delay
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
