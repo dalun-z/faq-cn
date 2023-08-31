@@ -19,7 +19,7 @@ const Postron_App_FAQ = () => {
         setContent(ct)
     }
 
-    var bgColor = '#ebf3be'
+    var bgColor = '#daeff3'
 
     const commonItemStyles = {
         backgroundColor: bgColor,
