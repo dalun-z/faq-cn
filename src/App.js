@@ -28,8 +28,8 @@ function App() {
         ) : (
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/pos-faq-page' element={<PostronWebFAQ />} />
-            <Route path='/web-faq-page' element={<PostronAppFAQ />} />
+            <Route path='/pos-faq-page' element={<PostronAppFAQ />} />
+            <Route path='/web-faq-page' element={<PostronWebFAQ />} />
           </Routes>
         )
       }
