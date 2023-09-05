@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000); // Adjust the delay time as needed
+    }, 1000); 
   }, []);
 
   return (
@@ -27,8 +27,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/pos-faq-page' element={<Postron_App_FAQ />} />
-            <Route path='/web-faq-page/*' element={<Postron_Web_FAQ />} />
-            <Route path='/web-faq-pages/*' element={<Postron_Web_FAQ />} />
+            <Route path='/web-faq-page' element={<Postron_Web_FAQ />} />
           </Routes>
         )
       }
