@@ -14,7 +14,7 @@ const features = [
   {
     name: 'POSTRON 网页后台管理(back-office)讲解视频',
     description:
-      'Ethan一步步教会您',
+      '後臺管理視頻講解',
     icon: VideoCameraIcon,
     url: 'https://www.youtube.com/@postronPOSsystem',
   },
@@ -28,7 +28,7 @@ const features = [
   {
     name: 'POS 点餐机讲解视频',
     description:
-      '视频讲解',
+      'POS機视频讲解',
     icon: VideoCameraIcon,
     url: '',
   },
