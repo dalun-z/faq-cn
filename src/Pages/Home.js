@@ -51,7 +51,7 @@ export default function Home() {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 请通过以下方式联系技术部门如果您还有别的问题
                 <br></br>
-                拨打 <a href="" className="text-indigo-600 hl-text">1 (800) 503-6222</a> 或发邮件至 <a href="" className="text-indigo-600 hl-text">support@postron.com</a>
+                拨打 <a href="/" className="text-indigo-600 hl-text">1 (800) 503-6222</a> 或发邮件至 <a href="/" className="text-indigo-600 hl-text">support@postron.com</a>
               </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
