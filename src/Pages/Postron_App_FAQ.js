@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import Layout from '../Routes/Layout';
 import '../css/Layout.css'
 import '../css/Doc.css'
