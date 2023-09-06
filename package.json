@@ -1,6 +1,6 @@
 {
   "name": "faq_page",
-  "homepage": "https://postronfaq.com/",
+  "homepage": "/faq",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
