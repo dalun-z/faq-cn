@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FAQ_PAGE/static/css/main.311fdd68.css",
-    "main.js": "/FAQ_PAGE/static/js/main.bed39749.js",
+    "main.js": "/FAQ_PAGE/static/js/main.e09be8ca.js",
     "static/media/shos_5.png": "/FAQ_PAGE/static/media/shos_5.aeacf4180c8167de46b0.png",
     "static/media/tag_3.png": "/FAQ_PAGE/static/media/tag_3.92efee85023211036107.png",
     "static/media/pic_1.png": "/FAQ_PAGE/static/media/pic_1.cae77bf45b1ce80e061c.png",
@@ -99,10 +99,10 @@
     "static/media/combo_5.png": "/FAQ_PAGE/static/media/combo_5.bc91d71b9586a5ce6c75.png",
     "index.html": "/FAQ_PAGE/index.html",
     "main.311fdd68.css.map": "/FAQ_PAGE/static/css/main.311fdd68.css.map",
-    "main.bed39749.js.map": "/FAQ_PAGE/static/js/main.bed39749.js.map"
+    "main.e09be8ca.js.map": "/FAQ_PAGE/static/js/main.e09be8ca.js.map"
   },
   "entrypoints": [
     "static/css/main.311fdd68.css",
-    "static/js/main.bed39749.js"
+    "static/js/main.e09be8ca.js"
   ]
 }
