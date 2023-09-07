@@ -1,8 +1,12 @@
 import React from 'react';
-import '../css/Layout.css'; // Import the CSS file for styling
+import '../css/Layout.css';
+import '../css/Banner.css';
+import Banner from './Banner';
 
 const Layout = ({ sidebar, mainContent }) => {
-    return (
+  return (
+    <>
+      <Banner />
       <div className="layout">
         <div className="sidebar">
           {sidebar}
@@ -11,7 +15,8 @@ const Layout = ({ sidebar, mainContent }) => {
           {mainContent}
         </div>
       </div>
-    );
-  };
-  
-  export default Layout;
+    </>
+  );
+};
+
+export default Layout;

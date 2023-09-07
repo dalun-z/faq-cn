@@ -1,6 +1,6 @@
 {
   "name": "faq_page",
-  "homepage": "https://dalun-z.github.io/FAQ_PAGE/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
