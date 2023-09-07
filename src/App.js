@@ -21,16 +21,18 @@ function App() {
 
   return (
     <Router>
-      <Banner />
       {
         isLoading ? (
           <div className='loading-indicator'><img alt='' src={require('./images/Postron_Rotate_Logo.png')} style={{ width: '100px', height: '100px' }}></img></div>
         ) : (
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/pos-faq-page' element={<PostronAppFAQ />} />
-            <Route path='/web-faq-page' element={<PostronWebFAQ />} />
-          </Routes>
+          <>
+            <Banner />
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/pos-faq-page' element={<PostronAppFAQ />} />
+              <Route path='/web-faq-page' element={<PostronWebFAQ />} />
+            </Routes>
+          </>
         )
       }
     </Router>
