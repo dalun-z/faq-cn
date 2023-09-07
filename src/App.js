@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import './css//App.css';
 import './css/Doc.css';
@@ -12,13 +12,13 @@ import PostronAppFAQ from './Pages/Postron_App_FAQ';
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path='/FAQ_PAGE' element={<Home />} />
-        <Route path='/FAQ_PAGE/pos-faq-page' element={<PostronAppFAQ />} />
-        <Route path='/FAQ_PAGE/web-faq-page' element={<PostronWebFAQ />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path='/FAQ_PAGE' element={<Home />} />
+          <Route path='/FAQ_PAGE/pos-faq-page' element={<PostronAppFAQ />} />
+          <Route path='/FAQ_PAGE/web-faq-page' element={<PostronWebFAQ />} />
+        </Routes>
+      </Router>
   );
 }
 
