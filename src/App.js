@@ -26,12 +26,12 @@ function App() {
           <div className='loading-indicator'><img alt='' src={require('./images/Postron_Rotate_Logo.png')} style={{ width: '100px', height: '100px' }}></img></div>
         ) : (
           <>
-            <Banner />
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/pos-faq-page' element={<PostronAppFAQ />} />
               <Route path='/web-faq-page' element={<PostronWebFAQ />} />
             </Routes>
+            <Banner />
           </>
         )
       }
