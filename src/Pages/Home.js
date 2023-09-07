@@ -16,7 +16,7 @@ const features = [
     description:
       '後臺管理視頻講解',
     icon: VideoCameraIcon,
-    url: 'https://www.youtube.com/@postronPOSsystem',
+    url: 'https://www.youtube.com/@alliancebankcardservices7713',
   },
   {
     name: 'POS 点餐机常见问题解答',
