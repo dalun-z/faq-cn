@@ -38,10 +38,6 @@ export default function Home() {
   return (
     <div className="py-24 sm:py-32 home-bg">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* <div style={{ display: 'flex' }}>
-          <img alt='' href="/" className='rotate-img' src={require('../images/Postron_Rotate_Logo.png')} width='100' height='100' style={{ marginRight: '1000px' }} />
-          <img alt='' href='/' className='rotate-img' src={require('../images/Postron_Rotate_Logo.png')} width='100' height='100' />
-        </div> */}
         <div className="mx-auto lg:text-center header-bg-img">
           <img alt='' href="/" className='rotate-img' src={require('../images/Postron_Rotate_Logo.png')} width='100' height='100' style={{ marginRight: '1000px' }} />
           <h2 className="text-base font-semibold leading-7 text-indigo-600">ALLIANCE BANKCARD SERVICES / POSTRON 技术支持</h2>

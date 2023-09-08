@@ -66,7 +66,7 @@ const Postron_Web_FAQ = () => {
     }
 
     const handleContentChange = ct => {
-        setContent(ct)
+        setContent(ct);
     }
 
     var bgColor = '#daeff3'
