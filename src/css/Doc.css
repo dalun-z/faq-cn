@@ -37,7 +37,7 @@ summary:hover {
 }
 
 .box-content {
-    padding-top: 30px;
+    padding-top: 30px; 
 }
 
 .doc-content {
@@ -58,7 +58,6 @@ summary:hover {
 }
 
 .header-bg-img {
-    /* background-image: url("https://www.postron.com/img/content/pages/2acf41dc-9d5e-07de-28fc-83a09da4a79b.webp"); */
     background-position: center;
     background-size: cover;
 }
@@ -70,7 +69,7 @@ summary:hover {
 
 .header-title:hover {
     text-decoration: underline;
-    text-decoration-thickness: 0.2em; 
+    text-decoration-thickness: 0.2em;
     text-decoration-skip-ink: none;
 }
 

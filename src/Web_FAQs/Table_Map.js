@@ -10,7 +10,7 @@ const TableMap = () => {
     return (
         <div className="doc-content">
             <h1>概要</h1>
-            <h3>該界面主要是用於使用餐廳的平面圖進行管理餐桌，達到更直觀和方便的目的。該餐桌可在POS機端展現出來</h3> <br/>
+            <h3>該界面主要是用於使用餐廳的平面圖進行管理餐桌，達到更直觀和方便的目的。該餐桌可在POS機端展現出來</h3> <br />
 
             <h1>管理餐桌</h1>
             <div className="space-y-2">
