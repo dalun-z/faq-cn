@@ -34,10 +34,10 @@ const Intro = () => {
                                         請注意保持該點的所有第一名稱和第二名稱的一致性 <br />
                                         比如說：設置改碼組時設置第一名稱為中文，第二名稱為英文，儅設置菜品名稱時也請保持同一個順序 <br />
                                         同時，第一名稱與第二名稱具有唯一性，不能出現兩個相同第一名稱或第二名稱的單品
-                                    </span> <br/> <br/> <br/>
+                                    </span> <br /> <br /> <br />
                                 </p>
                                 <h3>可在POS機中的‘設定’功能裏改變POS機所顯示的名稱</h3>
-                                    {getPics(9)}
+                                {getPics(9)}
                             </span>
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
@@ -64,7 +64,7 @@ const Intro = () => {
                                 c. 在POS機上點擊<strong>‘堂食’</strong>功能后導致的App閃退
                             </summary>
                             <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
-                            <h3>造成這種閃退的一般情況是該POS機沒法讀取到餐桌的信息，或者餐桌并沒有建立</h3>
+                                <h3>造成這種閃退的一般情況是該POS機沒法讀取到餐桌的信息，或者餐桌并沒有建立</h3>
                                 <p>
                                     1. 請跳至<strong>‘餐桌管理’</strong>界面
                                     {getPics(4)} <br />

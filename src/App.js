@@ -14,9 +14,9 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route path='/FAQ_PAGE' element={<Home />} />
-          <Route path='/FAQ_PAGE/pos-faq-page' element={<PostronAppFAQ />} />
-          <Route path='/FAQ_PAGE/web-faq-page' element={<PostronWebFAQ />} />
+          <Route path='/faq-cn' element={<Home />} />
+          <Route path='/faq-cn/pos-faq-page' element={<PostronAppFAQ />} />
+          <Route path='/faq-cn/web-faq-page' element={<PostronWebFAQ />} />
         </Routes>
       </Router>
   );

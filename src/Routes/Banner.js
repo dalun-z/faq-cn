@@ -15,7 +15,7 @@ const Banner = () => {
     isHomePage ? null : (
       <div className="banner">
         <img alt='' src={postronLogo} width={300} height={200} />
-        <Link to="/FAQ_PAGE" >首頁</Link>
+        <Link to="/faq-cn" >首頁</Link>
     </div>
     )
     

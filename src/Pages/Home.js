@@ -9,7 +9,7 @@ const features = [
     description:
       '内容包含了如何登陆后台，如何更改菜单设置，如何更改收银员登录PIN，以及如何查看报表等等...',
     icon: MagnifyingGlassIcon,
-    url: '/FAQ_PAGE/web-faq-page',
+    url: '/faq-cn/web-faq-page',
   },
   {
     name: 'POSTRON 网页后台管理(back-office)讲解视频',
@@ -23,7 +23,7 @@ const features = [
     description:
       '内容包含了每个按键以及功能的详细讲解，如何安装及使用，如何下订单取消订单，如何选择支付方式等等...',
     icon: MagnifyingGlassIcon,
-    url: '/FAQ_PAGE/pos-faq-page',
+    url: '/faq-cn/pos-faq-page',
   },
   {
     name: 'POS 点餐机讲解视频',
