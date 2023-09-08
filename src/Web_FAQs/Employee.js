@@ -3,10 +3,10 @@ import React from "react";
 const Employee = () => {
     const getPics = (num, additionalStyle) => {
         return (
-            <img 
-                alt='' 
-                className='doc-pics' 
-                style={additionalStyle} 
+            <img
+                alt=''
+                className='doc-pics'
+                style={additionalStyle}
                 src={require('../images/POS_WEB_Images/employee/employee_' + num + '.png')} />
         )
     }

@@ -1,24 +1,24 @@
 /* Layout.css */
 .layout {
-    display: flex;
-    grid-template-columns: 200px 1fr; /*  Adjust the width of the sidebar as needed */
-    gap: 80px; /* Adjust the gap between the sidebar and main content as needed */
-  }
-  
-  .sidebar {
-    color:rgb(241, 120, 64);
-    font-family: 'Noto Sans TC', sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: #daeff3 !important;
-  }
+  display: flex;
+  grid-template-columns: 200px 1fr;
+  /*  Adjust the width of the sidebar as needed */
+  gap: 80px;
+  /* Adjust the gap between the sidebar and main content as needed */
+}
+
+.sidebar {
+  color: rgb(241, 120, 64);
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #daeff3 !important;
+}
 
 
-  .main-content {
-    width: 1500px;
-    color: rgb(7, 7, 7);
-    font-size: 12pt;
-    flex:1;
-  }
-
- 
+.main-content {
+  width: 1500px;
+  color: rgb(7, 7, 7);
+  font-size: 12pt;
+  flex: 1;
+}

@@ -34,8 +34,6 @@ summary {
 summary:hover {
     background-color: #daeff3;
     transition: background-color 0.4s ease-in;
-    /* color:rgb(223, 66, 66);
-    transition: color 0.4s ease-in; */
 }
 
 .box-content {
@@ -57,9 +55,6 @@ summary:hover {
 .home-bg {
     height: 980px;
     background-color: rgb(247, 228, 215);
-    /* background-image: url("../images/bg-image.jpg");
-    background-position: center;
-    background-size: cover; */
 }
 
 .header-bg-img {
@@ -73,8 +68,10 @@ summary:hover {
     color: rgb(207, 87, 87)
 }
 
-.hl-text:hover {
+.header-title:hover {
     text-decoration: underline;
+    text-decoration-thickness: 0.2em; 
+    text-decoration-skip-ink: none;
 }
 
 .rotate-img {
@@ -83,7 +80,6 @@ summary:hover {
 }
 
 .loading-indicator {
-    /* background-image: url('../images//Postron_Rotate_Logo.png'); */
     height: 800px;
     display: flex;
     justify-content: center;
@@ -91,16 +87,6 @@ summary:hover {
     border-radius: 24px;
     animation: App-logo-spin infinite 9s linear;
 }
-
-/* .rotate-img {
-    border-radius: 24px;
-    animation: App-logo-spin infinite 9s linear;
-}
-
-.rotate-img:hover {
-    background-color: rgb(224, 60, 10);
-    transition: background-color 0.4s ease-in;
-} */
 
 @keyframes App-logo-spin {
     from {
