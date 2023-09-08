@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FAQ_PAGE/static/css/main.311fdd68.css",
-    "main.js": "/FAQ_PAGE/static/js/main.e09be8ca.js",
+    "main.css": "/FAQ_PAGE/static/css/main.b22b389a.css",
+    "main.js": "/FAQ_PAGE/static/js/main.2ebbf4b1.js",
     "static/media/shos_5.png": "/FAQ_PAGE/static/media/shos_5.aeacf4180c8167de46b0.png",
     "static/media/tag_3.png": "/FAQ_PAGE/static/media/tag_3.92efee85023211036107.png",
     "static/media/pic_1.png": "/FAQ_PAGE/static/media/pic_1.cae77bf45b1ce80e061c.png",
@@ -98,11 +98,11 @@
     "static/media/menu_3.png": "/FAQ_PAGE/static/media/menu_3.562bd1edae68de014660.png",
     "static/media/combo_5.png": "/FAQ_PAGE/static/media/combo_5.bc91d71b9586a5ce6c75.png",
     "index.html": "/FAQ_PAGE/index.html",
-    "main.311fdd68.css.map": "/FAQ_PAGE/static/css/main.311fdd68.css.map",
-    "main.e09be8ca.js.map": "/FAQ_PAGE/static/js/main.e09be8ca.js.map"
+    "main.b22b389a.css.map": "/FAQ_PAGE/static/css/main.b22b389a.css.map",
+    "main.2ebbf4b1.js.map": "/FAQ_PAGE/static/js/main.2ebbf4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.311fdd68.css",
-    "static/js/main.e09be8ca.js"
+    "static/css/main.b22b389a.css",
+    "static/js/main.2ebbf4b1.js"
   ]
 }
