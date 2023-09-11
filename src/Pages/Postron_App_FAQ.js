@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import Layout from '../Routes/Layout';
+import { globalSettings } from '../global/global';
 import '../css/Layout.css'
 import '../css/Doc.css'
 import '../css/Banner.css';
-
 
 import Intro from '../App_FAQs/Intro';
 
@@ -19,18 +19,9 @@ const Postron_App_FAQ = () => {
         setContent(ct)
     }
 
-    var bgColor = '#daeff3'
+    var bgColor = globalSettings.bgColor;
 
-    const commonItemStyles = {
-        backgroundColor: bgColor,
-        button: {
-            '&:hover': {
-                backgroundColor: '#ef8d32',
-                color: 'brown',
-                transition: 'background-color 0.4s ease',
-            },
-        },
-    };
+    const commonItemStyles = globalSettings.commonItemStyles;
 
     return (
         <Layout
