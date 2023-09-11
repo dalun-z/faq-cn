@@ -81,8 +81,7 @@ const CategoryAndItem = () => {
 
                         <h3>UPC 條碼</h3>
                         <p>
-                            該條碼是用於在POS機上搜索該單品 <br />
-                            比如：UPC條碼輸入值為‘1’，那麽在POS機的搜索功能上輸入‘1’的時候，就會顯示該單品， <br />
+                            單品條形碼 <br />
                             <span style={{ color: 'red' }}>*UPC條碼具有唯一性，不能有重複相同的條碼</span>
                         </p> <br />
 
