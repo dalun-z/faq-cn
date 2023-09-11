@@ -13,6 +13,7 @@ const Layout = ({ sidebar, mainContent }) => {
         </div>
         <div className="main-content">
           {mainContent}
+          <br /><br /><br /><br />
         </div>
       </div>
     </>

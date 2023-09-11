@@ -79,6 +79,55 @@ const Modifier = () => {
                     </p>
                 </details>
             </div>
+            <br /><br />
+            <h1>設置改碼動作</h1>
+            <div className="space-y-2">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        1. 點擊屏幕左上角的按鍵來添加或修改 改碼動作
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(9)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        2. 點擊下方的 ‘添加改碼動作’ 增加新的動作
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(10)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        3. 添加改碼動作后，將此動作加進需要此動作的改碼組選項
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(7)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        4. 在該選項中，選擇需要啓用的改碼動作 <span className='note'>注意：只有啓用的改碼動作才能在POS機上使用，沒啓用的改碼動作會顯示為灰色</span>
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(8)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        5. 在POS機中顯示的畫面，下方圈起的部分為 ‘改碼動作’ 的區域。顯示灰色説明沒有啓用
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(11)}
+                    </span>
+                </details>
+            </div>
+
         </div>
     )
 }
