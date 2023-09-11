@@ -70,15 +70,13 @@ const Postron_Web_FAQ = () => {
         setContent(ct);
     }
 
-    var bgColor = globalSettings.bgColor;
-
     const commonItemStyles = globalSettings.commonItemStyles;
 
     return (
         <Layout
             sidebar={
                 <Sidebar>
-                    <Menu menuItemStyles={commonItemStyles} rootStyles={{ backgroundColor: bgColor, height: '1500px', paddingTop: '15px', paddingLeft: '10px' }}>
+                    <Menu menuItemStyles={commonItemStyles} rootStyles={{ backgroundColor: globalSettings.bgColor, height: '1500px', paddingTop: '15px', paddingLeft: '10px' }}>
                         <MenuItem onClick={() => handleContentChange('Intro')}>常見問題匯總</MenuItem>
                         <MenuItem onClick={() => handleContentChange('POS_Settings')}>POS機設定</MenuItem>
 
