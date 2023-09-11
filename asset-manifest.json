@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/faq-cn/static/css/main.b22b389a.css",
-    "main.js": "/faq-cn/static/js/main.349fff28.js",
+    "main.css": "/faq-cn/static/css/main.f948578d.css",
+    "main.js": "/faq-cn/static/js/main.aa520011.js",
     "static/media/shos_5.png": "/faq-cn/static/media/shos_5.aeacf4180c8167de46b0.png",
-    "static/media/tag_3.png": "/faq-cn/static/media/tag_3.92efee85023211036107.png",
     "static/media/pic_1.png": "/faq-cn/static/media/pic_1.cae77bf45b1ce80e061c.png",
     "static/media/map_2.png": "/faq-cn/static/media/map_2.f459db4ee3c9a62ea284.png",
     "static/media/img_2.png": "/faq-cn/static/media/img_2.091eac7b9e5d488b89f2.png",
     "static/media/POSTRON_logo_web.png": "/faq-cn/static/media/POSTRON_logo_web.dc7742dcc3c729bef7ba.png",
     "static/media/intro_9.png": "/faq-cn/static/media/intro_9.d068033a6db81e398b32.png",
     "static/media/img_3.png": "/faq-cn/static/media/img_3.199ceb86aebd87d4d48a.png",
+    "static/media/tag_5.png": "/faq-cn/static/media/tag_5.12575682b3cce81ea09b.png",
+    "static/media/tag_3.png": "/faq-cn/static/media/tag_3.67d7e759009778114614.png",
     "static/media/inv_3.png": "/faq-cn/static/media/inv_3.841c08a1fc8de5970c63.png",
     "static/media/printer_3.png": "/faq-cn/static/media/printer_3.f53d2e5383f221f243de.png",
     "static/media/inv_4.png": "/faq-cn/static/media/inv_4.eb2bd22ecf954a438241.png",
@@ -38,6 +39,7 @@
     "static/media/menu_5.png": "/faq-cn/static/media/menu_5.e75b19ab831be25d50b2.png",
     "static/media/promo_5.png": "/faq-cn/static/media/promo_5.5b10513d77c3f3a141ab.png",
     "static/media/combo_7.png": "/faq-cn/static/media/combo_7.4bb1fbefe9566e872908.png",
+    "static/media/mod_9.png": "/faq-cn/static/media/mod_9.f53cf790920219b46e04.png",
     "static/media/promo_6.png": "/faq-cn/static/media/promo_6.4753d67815fd2360652f.png",
     "static/media/member_2.png": "/faq-cn/static/media/member_2.848add3dd3534988dcb4.png",
     "static/media/shos_1.png": "/faq-cn/static/media/shos_1.bfcf3ab68d7aa51e6761.png",
@@ -45,6 +47,9 @@
     "static/media/combo_6.png": "/faq-cn/static/media/combo_6.50d142ae438a8fcd51d8.png",
     "static/media/push_1.png": "/faq-cn/static/media/push_1.ebb402b4bb5e74dbb3ea.png",
     "static/media/mod_3.png": "/faq-cn/static/media/mod_3.92599548914e9e62fbc9.png",
+    "static/media/mod_11.png": "/faq-cn/static/media/mod_11.391946741f97f9274da8.png",
+    "static/media/mod_10.png": "/faq-cn/static/media/mod_10.31a9d39ad979f453069b.png",
+    "static/media/mod_8.png": "/faq-cn/static/media/mod_8.688f183f25882b7d8815.png",
     "static/media/employee_2.png": "/faq-cn/static/media/employee_2.76121bb73e0b47d62c78.png",
     "static/media/cat_6.png": "/faq-cn/static/media/cat_6.cb464452ffa9e17e7dc3.png",
     "static/media/push_6.png": "/faq-cn/static/media/push_6.8a4abeffc0e39ef0483f.png",
@@ -64,6 +69,7 @@
     "static/media/intro_5.png": "/faq-cn/static/media/intro_5.64f291fc6909321e8cbf.png",
     "static/media/combo_4.png": "/faq-cn/static/media/combo_4.c58bf2e7ad3267313048.png",
     "static/media/mod_2.png": "/faq-cn/static/media/mod_2.ca8742db1fcc87e504ee.png",
+    "static/media/mod_7.png": "/faq-cn/static/media/mod_7.8cd60eddfc7f71d632bb.png",
     "static/media/ps_1.png": "/faq-cn/static/media/ps_1.37f553b14eb31929889b.png",
     "static/media/spec_8.png": "/faq-cn/static/media/spec_8.56dca7d07c7b19ec7fc9.png",
     "static/media/menu_4.png": "/faq-cn/static/media/menu_4.65c3e5d94f9198242eac.png",
@@ -98,11 +104,11 @@
     "static/media/menu_3.png": "/faq-cn/static/media/menu_3.562bd1edae68de014660.png",
     "static/media/combo_5.png": "/faq-cn/static/media/combo_5.bc91d71b9586a5ce6c75.png",
     "index.html": "/faq-cn/index.html",
-    "main.b22b389a.css.map": "/faq-cn/static/css/main.b22b389a.css.map",
-    "main.349fff28.js.map": "/faq-cn/static/js/main.349fff28.js.map"
+    "main.f948578d.css.map": "/faq-cn/static/css/main.f948578d.css.map",
+    "main.aa520011.js.map": "/faq-cn/static/js/main.aa520011.js.map"
   },
   "entrypoints": [
-    "static/css/main.b22b389a.css",
-    "static/js/main.349fff28.js"
+    "static/css/main.f948578d.css",
+    "static/js/main.aa520011.js"
   ]
 }
