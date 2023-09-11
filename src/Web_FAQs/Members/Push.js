@@ -9,7 +9,7 @@ const Push = () => {
 
     return (
         <div className="doc-content">
-            <h1>概要</h1>
+            <h1>推送管理</h1>
             <h3>該界面主要功能是記錄已推送的消息以及推送新的消息給注冊的會員</h3>
             {getPics(1)} <br />
 

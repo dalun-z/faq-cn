@@ -10,7 +10,7 @@ const Modifier = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>改碼組設置</h1>
             <h3>改碼組可以爲不同的菜定製不同的選項.</h3>
             {getPics(1)} <br />
             <br />

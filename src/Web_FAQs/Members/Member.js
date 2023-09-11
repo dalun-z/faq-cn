@@ -9,7 +9,7 @@ const Member = () => {
 
     return (
         <div className="doc-content">
-            <h1>概要</h1>
+            <h1>會員管理</h1>
             <h3>該界面直觀展示了所有注冊會員的個人信息，以及添加和管理會員的功能</h3>
             {getPics(1)} <br />
 

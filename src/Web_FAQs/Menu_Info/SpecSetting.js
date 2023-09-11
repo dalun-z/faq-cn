@@ -10,7 +10,7 @@ const SpecSetting = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>規格設定</h1>
             <h3>點擊右下方的加號按鍵來添加新的規格</h3>
             {getPics(1)}
             <br /> <br />

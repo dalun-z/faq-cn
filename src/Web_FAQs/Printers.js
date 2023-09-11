@@ -9,7 +9,7 @@ const Printers = () => {
 
     return (
         <div className="doc-content">
-            <h1>概要</h1>
+            <h1>打印機管理</h1>
             <h3>該界面主要功能是添加和管理打印機</h3> <br />
 
             <h1>管理打印機</h1>

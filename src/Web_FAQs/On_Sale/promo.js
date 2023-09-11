@@ -9,7 +9,7 @@ const Promo = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>優惠管理</h1>
             <h3>該界面主要是添加以及管理店鋪的優惠活動</h3>
             {getPics(1)}
 

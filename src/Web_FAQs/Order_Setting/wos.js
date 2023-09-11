@@ -12,7 +12,7 @@ const Wos = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>網絡點單</h1>
             <h3>該界面非爲6個部分：</h3>
             <p>
                 1. 選擇菜單進行網上點單的設置 <br/>

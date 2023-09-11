@@ -9,7 +9,7 @@ const POS_Settings = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>POS機設定</h1>
             <h3>‘POS機設定’ 是提供給店長或經理去管理POS機在每個門店的狀態：</h3>
             <p>1. 查看每個POS機器的使用狀態. <br />
                 2. 改POS機的名字或者添加備註. <br />

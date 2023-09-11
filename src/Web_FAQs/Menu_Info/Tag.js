@@ -12,7 +12,7 @@ const Tag = () => {
 
     return (
         <div className='doc-content'>
-            <h1>概要</h1>
+            <h1>標簽管理</h1>
             <h3>
                 標簽是用於更快捷的區分單品的一種方式，跟類別有一點相似之處。
             </h3>
