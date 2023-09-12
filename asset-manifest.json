@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/faq-cn/static/css/main.f948578d.css",
-    "main.js": "/faq-cn/static/js/main.aa520011.js",
+    "main.css": "/faq-cn/static/css/main.ea896942.css",
+    "main.js": "/faq-cn/static/js/main.0322aa0a.js",
     "static/media/shos_5.png": "/faq-cn/static/media/shos_5.aeacf4180c8167de46b0.png",
     "static/media/pic_1.png": "/faq-cn/static/media/pic_1.cae77bf45b1ce80e061c.png",
     "static/media/map_2.png": "/faq-cn/static/media/map_2.f459db4ee3c9a62ea284.png",
     "static/media/img_2.png": "/faq-cn/static/media/img_2.091eac7b9e5d488b89f2.png",
     "static/media/POSTRON_logo_web.png": "/faq-cn/static/media/POSTRON_logo_web.dc7742dcc3c729bef7ba.png",
+    "static/media/dine_4.png": "/faq-cn/static/media/dine_4.25f56f1e204c6861e9dd.png",
+    "static/media/dine_3.png": "/faq-cn/static/media/dine_3.385e95ce4f351474fdb0.png",
     "static/media/intro_9.png": "/faq-cn/static/media/intro_9.d068033a6db81e398b32.png",
+    "static/media/dine_2.png": "/faq-cn/static/media/dine_2.85042adcccfee83ab9d2.png",
     "static/media/img_3.png": "/faq-cn/static/media/img_3.199ceb86aebd87d4d48a.png",
     "static/media/tag_5.png": "/faq-cn/static/media/tag_5.12575682b3cce81ea09b.png",
     "static/media/tag_3.png": "/faq-cn/static/media/tag_3.67d7e759009778114614.png",
@@ -44,6 +47,7 @@
     "static/media/member_2.png": "/faq-cn/static/media/member_2.848add3dd3534988dcb4.png",
     "static/media/shos_1.png": "/faq-cn/static/media/shos_1.bfcf3ab68d7aa51e6761.png",
     "static/media/img_5.png": "/faq-cn/static/media/img_5.54df16b77a3db18c83a8.png",
+    "static/media/dine_1.png": "/faq-cn/static/media/dine_1.c34c711bc493948d2edf.png",
     "static/media/combo_6.png": "/faq-cn/static/media/combo_6.50d142ae438a8fcd51d8.png",
     "static/media/push_1.png": "/faq-cn/static/media/push_1.ebb402b4bb5e74dbb3ea.png",
     "static/media/mod_3.png": "/faq-cn/static/media/mod_3.92599548914e9e62fbc9.png",
@@ -104,11 +108,11 @@
     "static/media/menu_3.png": "/faq-cn/static/media/menu_3.562bd1edae68de014660.png",
     "static/media/combo_5.png": "/faq-cn/static/media/combo_5.bc91d71b9586a5ce6c75.png",
     "index.html": "/faq-cn/index.html",
-    "main.f948578d.css.map": "/faq-cn/static/css/main.f948578d.css.map",
-    "main.aa520011.js.map": "/faq-cn/static/js/main.aa520011.js.map"
+    "main.ea896942.css.map": "/faq-cn/static/css/main.ea896942.css.map",
+    "main.0322aa0a.js.map": "/faq-cn/static/js/main.0322aa0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f948578d.css",
-    "static/js/main.aa520011.js"
+    "static/css/main.ea896942.css",
+    "static/js/main.0322aa0a.js"
   ]
 }
