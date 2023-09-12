@@ -15,10 +15,25 @@
   /* background-color: #daeff3 !important; */
 }
 
-
 .main-content {
   width: 1500px;
   color: rgb(7, 7, 7);
   font-size: 12pt;
   flex: 1;
+}
+
+@media (max-width: 468px) {
+  .layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 60%;
+  }
+
+  .main-content {
+    width: 100%;
+    font-size: 0.875em; /* Adjust font size for mobile */
+  }
 }

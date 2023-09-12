@@ -12,15 +12,15 @@ import PostronAppFAQ from './Pages/Postron_App_FAQ';
 function App() {
 
   return (
-      // <Router>
-      //   <Routes>
-      //     <Route path='/faq-cn' element={<Home />} />
-      //     <Route path='/faq-cn/pos-faq-page' element={<PostronAppFAQ />} />
-      //     <Route path='/faq-cn/web-faq-page' element={<PostronWebFAQ />} />
-      //   </Routes>
-      // </Router>
+    // <Router>
+    //   <Routes>
+    //     <Route path='/faq-cn' element={<Home />} />
+    //     <Route path='/faq-cn/pos-faq-page' element={<PostronAppFAQ />} />
+    //     <Route path='/faq-cn/web-faq-page' element={<PostronWebFAQ />} />
+    //   </Routes>
+    // </Router>
 
-      <PostronWebFAQ />
+    <PostronWebFAQ />
   );
 }
 

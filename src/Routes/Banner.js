@@ -18,7 +18,7 @@ const Banner = () => {
       <img alt='' src={postronLogo} width={300} height={200} />
     </div>
 
-    
+
     // isHomePage ? null : (
     //   <div className="banner" style={{ backgroundColor: globalSettings.bgColor }}>
     //     <img alt='' src={postronLogo} width={300} height={200} />
