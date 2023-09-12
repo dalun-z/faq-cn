@@ -39,7 +39,7 @@ git clone https://github.com/dalun-z/faq-cn
 ```
 - After the code has downloaded to your working directory, run the following command:
 ```
-cd FAQ_PAGE
+cd faq-cn
 ```
 ```
 npm install
