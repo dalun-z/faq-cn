@@ -8,18 +8,23 @@ import { useLocation } from 'react-router-dom';
 import { globalSettings } from '../global/global';
 
 const Banner = () => {
-  const location = useLocation();
+  // const location = useLocation();
 
-  const isHomePage = location.pathname === '/';
+  // const isHomePage = location.pathname === '/';
 
   return (
-    isHomePage ? null : (
-      <div className="banner" style={{ backgroundColor: globalSettings.bgColor }}>
-        <img alt='' src={postronLogo} width={300} height={200} />
-        <Link to="/faq-cn" >首頁</Link>
-      </div>
-    )
+    // beta published version
+    <div className='banner' style={{ backgroundColor: globalSettings.bgColor }}>
+      <img alt='' src={postronLogo} width={300} height={200} />
+    </div>
 
+    
+    // isHomePage ? null : (
+    //   <div className="banner" style={{ backgroundColor: globalSettings.bgColor }}>
+    //     <img alt='' src={postronLogo} width={300} height={200} />
+    //     <Link to="/faq-cn" >首頁</Link>
+    //   </div>
+    // )
   );
 };
 
