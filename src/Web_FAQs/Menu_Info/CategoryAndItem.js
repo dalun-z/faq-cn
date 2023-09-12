@@ -82,7 +82,7 @@ const CategoryAndItem = () => {
                         <h3>UPC 條碼</h3>
                         <p>
                             單品條形碼 <br />
-                            <span style={{ color: 'red' }}>*UPC條碼具有唯一性，不能有重複相同的條碼</span>
+                            <span className='note'>*UPC條碼具有唯一性，不能有重複相同的條碼</span>
                         </p> <br />
 
                         <h3>描述信息</h3>
@@ -133,7 +133,7 @@ const CategoryAndItem = () => {
                         <h3>圖片</h3>
                         <p>
                             為該單品添加圖片，可在<span style={{ color: 'red' }}>圖片關係</span>一欄進行設置 <br />
-                            <span style={{ color: 'red' }}>*圖片僅支持 .GIF 格式</span>
+                            <span className='note'>*圖片僅支持 .GIF 格式</span>
                         </p> <br />
 
                         <h3>菜品規格</h3>
