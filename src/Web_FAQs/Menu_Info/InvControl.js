@@ -11,7 +11,7 @@ const InvControl = () => {
     return (
         <div className='doc-content'>
             <h1>庫存設置</h1>
-            <p>此界面作用於管理單品的數量，用以方便記錄和觀察店鋪的庫存情況</p>
+            <p>該界面作用於管理單品的數量，用以方便記錄和觀察店鋪的庫存情況</p>
             {getPics(1)} <br />
 
             <h1>添加單品進入庫存</h1>

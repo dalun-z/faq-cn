@@ -11,7 +11,8 @@ const Printers = () => {
         <div className="doc-content">
             <h1>打印機管理</h1>
             <h3>該界面主要功能是添加和管理打印機</h3> <br />
-
+            <p className="note">只需輸入該打印機的正確MAC地址即可，POS機會通過該MAC地址在網絡中找到並匹配該打印機</p>
+            <br />
             <h1>管理打印機</h1>
             <div className="space-y-2">
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">

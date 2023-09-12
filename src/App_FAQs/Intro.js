@@ -15,7 +15,7 @@ const Intro = () => {
                     POS機常見問題解答
                 </h1>
 
-                <p>如App發生閃退問題，請參考<span style={{ textDecoration: 'underline', color: 'blue' }}><Link to='/faq-cn/web-faq-page'>POSTRON 後台管理常见问题解答</Link></span>中對應閃退情況的解答</p>
+                <p className="note">如App發生閃退問題，請參考<span style={{ textDecoration: 'underline', color: 'blue' }}><Link to='/faq-cn/web-faq-page'>POSTRON 後台管理常见问题解答</Link></span>中對應閃退情況的解答</p>
                 <br />
                 <div className="space-y-2">
                     <details className="w-10/12 rounded-lg ring-2 ring-purple-600">

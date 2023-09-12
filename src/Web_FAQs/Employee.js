@@ -14,7 +14,7 @@ const Employee = () => {
     return (
         <div className="doc-content">
             <h1>員工管理</h1>
-            <h3>此界面用於管理員工登錄信息以及員工基本信息</h3>
+            <h3>該界面用於管理員工登錄信息以及員工基本信息</h3>
             {getPics(1)}
             {getPics(2)}
             <br />

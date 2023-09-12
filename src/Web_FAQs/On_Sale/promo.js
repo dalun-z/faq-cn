@@ -48,7 +48,7 @@ const Promo = () => {
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         <h3>
                             儅打開‘是否二維碼優惠’后，會在所有優惠列表的右側‘操作’欄下看到有多出一個QR Code的圖片 <br />
-                            <span style={{color:'red'}}>只有打開‘是否二維碼優惠’這個功能，才能夠在‘會員管理’下的‘推送管理’功能通過短信或Email推送該優惠給顧客</span>
+                            <p className='note'>只有打開‘是否二維碼優惠’這個功能，才能夠在‘會員管理’下的‘推送管理’功能通過短信或Email推送該優惠給顧客</p>
                         </h3>
                         {getPics(6)}
                     </span>

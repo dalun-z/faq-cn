@@ -12,7 +12,7 @@ const Combo = () => {
         <div className='doc-content'>
             <h1>套餐設置</h1>
             <p>
-                這個界面是用于添加和更改套餐信息的。
+                該界面是用于添加和更改套餐信息的。
             </p>
             <br />
 
