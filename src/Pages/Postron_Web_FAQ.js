@@ -8,7 +8,7 @@ import '../css/Banner.css';
 
 import Intro from '../Web_FAQs/Intro';
 
-import POS_Settings from '../Web_FAQs/POS_Settings';
+import PosSettings from '../Web_FAQs/POS_Settings';
 import Modifier from '../Web_FAQs/Menu_Info/Modifier';
 import CategoryAndItem from '../Web_FAQs/Menu_Info/CategoryAndItem';
 import OrderMenu from '../Web_FAQs/Menu_Info/OrderMenu';
@@ -37,7 +37,7 @@ const Postron_Web_FAQ = () => {
     const [content, setContent] = useState('Intro');
 
     const contentMap = {
-        POS_Settings: <POS_Settings />,
+        POS_Settings: <PosSettings />,
 
         Intro: <Intro />,
         Modifier: <Modifier />,

@@ -7,12 +7,14 @@ import '../css/Doc.css'
 import '../css/Banner.css';
 
 import Intro from '../App_FAQs/Intro';
+import Dinein from '../App_FAQs/dinein';
 
 const Postron_App_FAQ = () => {
     const [content, setContent] = useState('Intro');
 
     const contentMap = {
         Intro: <Intro />,
+        Dinein: <Dinein />,
     }
 
     const handleContentChange = ct => {
@@ -27,6 +29,7 @@ const Postron_App_FAQ = () => {
                 <Sidebar>
                     <Menu menuItemStyles={commonItemStyles} rootStyles={{ backgroundColor: globalSettings.bgColor, height: '1500px', paddingTop: '15px', paddingLeft: '10px' }}>
                         <MenuItem onClick={() => handleContentChange('Intro')}>常見問題匯總</MenuItem>
+                        <MenuItem onClick={() => handleContentChange('Dinein')}>堂食</MenuItem>
                     </Menu>
                 </Sidebar>
             }
