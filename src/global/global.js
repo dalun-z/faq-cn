@@ -1,10 +1,11 @@
 export const globalSettings = {
     // banner & sidebar background color
-    bgColor: '#daeff3',
+    // bgColor: '#daeff3',
+    bgColor: '#fbf6eb',
 
     // menu item style
     commonItemStyles: {
-        backgroundColor: '#daeff3',  // hsa to match the value of 'bgColor' above
+        backgroundColor: '#fbf6eb',  // hsa to match the value of 'bgColor' above
         
         button: {
             '&:hover': {
