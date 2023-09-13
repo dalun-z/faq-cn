@@ -1,5 +1,4 @@
 body {
-    color: rgb(0, 0, 0);
     font-size: 14pt;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -7,9 +6,9 @@ body {
 h1 {
     color: rgb(224, 96, 10);
     font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20pt;
+    font-size: 22pt;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-top: 10px solid rgb(224, 96, 10);
 }
 
@@ -23,7 +22,7 @@ h3 {
 p {
     font-weight: bold;
     padding-left: 30px;
-    font-size: 15pt;
+    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -47,7 +46,7 @@ p {
 }
 
 summary {
-    color: rgb(120, 17, 216);
+    color: rgb(17, 54, 216);
 }
 
 summary:hover {

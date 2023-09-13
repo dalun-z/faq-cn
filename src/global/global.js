@@ -5,6 +5,7 @@ export const globalSettings = {
     // menu item style
     commonItemStyles: {
         backgroundColor: '#daeff3',  // hsa to match the value of 'bgColor' above
+        
         button: {
             '&:hover': {
                 backgroundColor: '#ef8d32',
