@@ -47,6 +47,20 @@ const Printers = () => {
                         {getPics(3)}
                     </span>
                 </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        4. 打印機名稱 以及 ID
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        <h3>打印機ID</h3>
+                        <p>打印機ID為系統自動分配的數字，從1開始每添加一個打印機就會自動添加，<br/>在‘菜品類別設置’界面中添加打印機就是以打印機ID為識別</p>
+                        <p className="note">ID ‘-1’ 為POS機的内置打印機</p>
+                        <h3>打印機名稱</h3>
+                        <p>打印機名稱是爲了用戶方便區分每個打印機的用途和擺放位置</p>
+                        {getPics(4)}
+                    </span>
+                </details>
             </div>
         </div>
     )

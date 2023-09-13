@@ -15,18 +15,18 @@ const OrderMenu = () => {
                 該界面主要是設置菜單，以及為菜單增添新的菜盤以及菜品。<br />
                 設置好的菜單將會以同樣的順序展現在POS機上 <br />
                 該界面主要分為兩個區塊：
-                <br />&nbsp;&nbsp; 1. 綠色圈起的部分為菜單區塊，在這裏能添加新菜單或者為所選菜單新增單品
-                <br />&nbsp;&nbsp; 2. 藍色圈起的部分為菜單信息區塊，展示所選菜單包含的所有菜盤和菜品
+                <br />&nbsp;&nbsp; 1. 綠色圈起的部分為菜盤區塊，在這裏能添加新菜單或者為所選菜盤新增菜盤
+                <br />&nbsp;&nbsp; 2. 藍色圈起的部分為菜盤信息區塊，展示所選菜單包含的所有菜盤分類和菜品
             </p>
             {getPics(1)}  <br /><br />
             <p>下圖為POS機展示的界面與順序：</p>
             {getPics(11)}  <br /><br />
 
-            <h1>菜單</h1>
+            <h1>菜盤</h1>
             <div className="space-y-2">
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        1. 點擊屏幕右上角的加號來創建新的菜單或編輯菜單
+                        1. 點擊屏幕右上角的加號來創建新的菜盤或編輯菜盤
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(2)}
@@ -34,14 +34,14 @@ const OrderMenu = () => {
                 </details>
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        2. 添加菜單
+                        2. 添加菜盤
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
-                        <h3>添加菜單有兩種方式</h3>
-                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1. 關閉複製菜單：該方式為創建一個全新的菜單，需要手動往菜單添加菜盤類別和菜品</h3>
+                        <h3>添加菜盤有兩種方式</h3>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1. 關閉複製菜盤：該方式為創建一個全新的菜盤，需要手動往菜盤添加菜盤類別和菜品</h3>
                         {getPics(3)}
                         <br />
-                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜單：該方式可複製所選的菜單，所選菜單的所有内容將會複製到新建的菜單中</h3>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜盤：該方式可複製所選的菜盤，所選菜盤的所有内容將會複製到新建的菜盤中</h3>
                         {getPics(4)}
                     </span>
                 </details>
@@ -50,11 +50,11 @@ const OrderMenu = () => {
 
 
 
-            <h1>菜單信息</h1>
+            <h1>菜盤信息</h1>
             <div className="space-y-2">
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        1. 基本菜單信息與功能
+                        1. 基本菜盤信息與功能
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(5)}

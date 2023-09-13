@@ -6,7 +6,7 @@ import '../../css/Doc.css'
 const Shos = () => {
     const getPics = (num) => {
         return (
-            <img alt='' src={require('../../images/POS_WEB_Images/shos/shos_' + num + '.png')} />
+            <img alt='' className='doc-pics' src={require('../../images/POS_WEB_Images/shos/shos_' + num + '.png')} />
         )
     }
 

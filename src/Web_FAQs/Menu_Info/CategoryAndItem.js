@@ -5,10 +5,10 @@ const CategoryAndItem = () => {
 
     const getPics = (num) => {
         return (
-            <img 
-                alt='' 
+            <img
+                alt=''
                 className='doc-pics'
-                src={require('../../images/POS_WEB_Images/category/cat_' + num + '.png')} 
+                src={require('../../images/POS_WEB_Images/category/cat_' + num + '.png')}
             />
         )
     }
@@ -18,20 +18,20 @@ const CategoryAndItem = () => {
             <h1>菜品類別設置 </h1>
             <p>該界面主要分爲兩個部分，上半部分（用綠框圈起的部分）為類別，下半部分（用藍框圈起的部分）為該類別對應的菜品</p> <br />
             {getPics(1)} <br />
-            <br/>
+            <br />
             <p>
-                界面最右上角的位置有三個按鍵，分別為‘添加’，’導入‘和‘導出’。 <br/>
-                添加會在下方詳細提到，這裏主要講解一下‘導入’和‘導出’的功能。 <br/>
-                ‘導出’功能可以以Excel表格的形式導出當前的菜單組， <br/>
-                如有別的店面需要相同的菜單的話就可以將‘導出’的菜單直接‘導入’到新建的店鋪，<br/>
+                界面最右上角的位置有三個按鍵，分別為‘添加’，’導入‘和‘導出’。 <br />
+                添加會在下方詳細提到，這裏主要講解一下‘導入’和‘導出’的功能。 <br />
+                ‘導出’功能可以以Excel表格的形式導出當前的菜單組， <br />
+                如有別的店面需要相同的菜單的話就可以將‘導出’的菜單直接‘導入’到新建的店鋪，<br />
                 省去重複輸入菜單的步驟。
             </p>
             {getPics(7)}
-            <br/> <br/>
+            <br /> <br />
             <h1>類別</h1>
             <h3>添加類別步驟：</h3>
             <div className="space-y-2">
-            <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         1. 點擊屏幕右上角的加號來創建新的類別
                     </summary>
@@ -54,7 +54,7 @@ const CategoryAndItem = () => {
             <h1>菜品</h1>
             <h3>添加菜品步驟：</h3>
             <div className="space-y-2">
-            <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
                         1. 點擊想要添加菜品的類別
                     </summary>
@@ -138,12 +138,38 @@ const CategoryAndItem = () => {
 
                         <h3>菜品規格</h3>
                         <p>
-                            該設置可為單品賦予’多選一‘的功能，比如麵條，那麽規格設置可為’牛肉‘，’鷄肉’或‘豬肉’, <br/>
+                            該設置可為單品賦予’多選一‘的功能，比如麵條，那麽規格設置可為’牛肉‘，’鷄肉’或‘豬肉’, <br />
                             那麽收銀員在給該單品下單時，POS機會强制要求從’牛肉‘，’鷄肉’或‘豬肉’中選其中一個來給麵條這個單品下單
                         </p> <br />
 
                         <br /> <br />
                         {getPics(6)}
+                    </span>
+                </details>
+            </div>
+            <br />
+
+            <h3>菜品信息更改</h3>
+            <div className="space-y-2">
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        1. 菜品區域上方的功能欄可快速的更改單個或多個菜品的信息（如：標簽，稅，打印機，改價等等）<span className='note'>做完任何更改后需點擊右上方的保存才會完成更改</span>
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(8)}
+                        {getPics(9)}
+                    </span>
+                </details>
+
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        2. 菜品 與 打印機 的關係
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        <p>菜品默認是從POS機内置打印機上（如圖所示，-1為POS機的内置打印機）打印出單據</p>
+                        <p className='note'>只有儅把該菜品分配給了某個打印機中的一個，儅菜品在下單后才會從該打印機打印出該單據的基本信息</p>
+                        <p className='note'>同樣，做完打印機分配的操作后，請點擊右上方的保存來完成更改</p>
+                        {getPics(10)} <br/>
                     </span>
                 </details>
             </div>

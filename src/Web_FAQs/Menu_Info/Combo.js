@@ -38,7 +38,7 @@ const Combo = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        3. 然後點擊左上方的‘套餐明細’按鍵來為該套餐添加菜品
+                        3. 新建套餐完成後點擊左上方的‘套餐明細’按鍵來為該套餐添加菜品
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(3)}
@@ -95,7 +95,25 @@ const Combo = () => {
                     </span>
                 </details>
 
+                <br /><br />
 
+                <h1>更改存在的套餐</h1>
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        1. 點擊圖中圈起的區域選擇已存在的套餐
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(9)}
+                    </span>
+                </details>
+                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                    <summary className="px-4 py-6">
+                        2. 選擇套餐完畢后，選擇想要更改的信息（套餐信息，套餐明細）
+                    </summary>
+                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        {getPics(10)}
+                    </span>
+                </details>
             </div>
         </div>
     );
