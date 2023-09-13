@@ -36,7 +36,7 @@ const InvControl = () => {
 
                 <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
                     <summary className="px-4 py-6">
-                        3. 點擊右上角的保存。很重要的一個步驟，否則您的操作將不會被保存下來
+                        3. 點擊右上角的保存。<span className='note'>很重要的一個步驟，否則您的操作將不會被保存下來</span>
                     </summary>
                     <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
                         {getPics(4)}
