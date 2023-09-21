@@ -41,7 +41,7 @@ const Intro = () => {
                             </span>
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6">
+                            <summary className="px-4 py-6 note">
                                 b. 在POS機上點擊POSTRON的App圖標后加載過程中發生的App閃退
                             </summary>
                             <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
@@ -61,7 +61,7 @@ const Intro = () => {
                             </span>
                         </details>
                         <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6">
+                            <summary className="px-4 py-6 note">
                                 c. 在POS機上點擊<strong>‘堂食’</strong>功能后導致的App閃退
                             </summary>
                             <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
@@ -86,6 +86,22 @@ const Intro = () => {
                                     {getPics(7)} <br />
                                     2. 目前該功能只支持上傳 .GIF 格式的圖片 <br />
                                     3. 請先把 .PNG 以及 .JPEG 等圖片格式轉化成 .GIF 再上傳
+                                </p>
+                            </span>
+                        </details>
+
+                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
+                            <summary className="px-4 py-6">
+                                e. 食物（套餐）已存在，無法添加。<span className='note'>該情況只針對用戶確定沒有存在（添加）過相同單品的情況</span>
+                            </summary>
+                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                                <p>
+                                    1. 儅添加一個菜品或套餐時出現下圖的錯誤提示
+                                    {getPics(10)} <br />
+                                    2. 請點擊當前頁面的‘回收站’檢查一下是否有相同的菜品或套餐之前刪除過
+                                    {getPics(11)} <br />
+                                    3. ‘回收站’頁面會顯示出曾經刪除過的單品，可選擇‘還原’或‘清空’
+                                    {getPics(12)}
                                 </p>
                             </span>
                         </details>

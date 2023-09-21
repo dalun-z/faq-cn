@@ -1,5 +1,12 @@
 ## Dev Log ##
 
+### To Deploy the web
+```
+npm run deploy
+```
+
+
+
 ### Environment
 - Node.js v18.16.1 (or latest)
     - Click the link below to download Node.js. Use the LTS version
@@ -48,6 +55,8 @@ npm install
 ```
 npm start
 ```
+
+
 
 ## Code Templates: ##
 
