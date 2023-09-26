@@ -1,4 +1,5 @@
 import React from 'react'
+import BoxContent from '../global/BoxContent';
 import '../css/Doc.css'
 
 const Intro = () => {
@@ -20,11 +21,11 @@ const Intro = () => {
                         {/* 如有別的疑問請直接聯係POSTRON的技術人員 */}
                     </p>
                     <div className="space-y-2">
-                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6">
+                        <BoxContent>
+                            <span>
                                 a. 什麽是 <strong>第一名稱</strong> 與 <strong>第二名稱</strong>
-                            </summary>
-                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                            </span>
+                            <span>
                                 <p>
                                     {getPics(8)} <br />
                                     POSTRON的第一名稱與第二名稱都是相互對應的 <br />
@@ -39,12 +40,13 @@ const Intro = () => {
                                 <h3>可在POS機中的‘設定’功能裏改變POS機所顯示的名稱</h3>
                                 {getPics(9)}
                             </span>
-                        </details>
-                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6 note">
+                        </BoxContent>
+
+                        <BoxContent>
+                            <span className='note'>
                                 b. 在POS機上點擊POSTRON的App圖標后加載過程中發生的App閃退
-                            </summary>
-                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                            </span>
+                            <span>
                                 <h3>造成這種閃退的一般情況是該POS機無法讀取到菜單信息</h3>
                                 <p>
                                     1. 檢查後臺管理的菜單是否有添加至該POS機 <br />
@@ -59,12 +61,13 @@ const Intro = () => {
                                     5. 再重新嘗試一次查看是否還存在閃退的情況
                                 </p>
                             </span>
-                        </details>
-                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6 note">
+                        </BoxContent>
+
+                        <BoxContent>
+                            <span className='note'>
                                 c. 在POS機上點擊<strong>‘堂食’</strong>功能后導致的App閃退
-                            </summary>
-                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                            </span>
+                            <span>
                                 <h3>造成這種閃退的一般情況是該POS機沒法讀取到餐桌的信息，或者餐桌并沒有建立</h3>
                                 <p>
                                     1. 請跳至<strong>‘餐桌管理’</strong>界面
@@ -75,12 +78,13 @@ const Intro = () => {
                                     {getPics(6)}
                                 </p>
                             </span>
-                        </details>
-                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6">
+                        </BoxContent>
+
+                        <BoxContent>
+                            <span>
                                 d. 圖片關係 - 無法上傳菜品的圖片（error：圖片不符合規定）
-                            </summary>
-                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                            </span>
+                            <span>
                                 <p>
                                     1. 錯誤情況：
                                     {getPics(7)} <br />
@@ -88,13 +92,13 @@ const Intro = () => {
                                     3. 請先把 .PNG 以及 .JPEG 等圖片格式轉化成 .GIF 再上傳
                                 </p>
                             </span>
-                        </details>
+                        </BoxContent>
 
-                        <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                            <summary className="px-4 py-6">
+                        <BoxContent>
+                            <span>
                                 e. 食物（套餐）已存在，無法添加。<span className='note'>該情況只針對用戶確定沒有存在（添加）過相同單品的情況</span>
-                            </summary>
-                            <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                            </span>
+                            <span>
                                 <p>
                                     1. 儅添加一個菜品或套餐時出現下圖的錯誤提示
                                     {getPics(10)} <br />
@@ -104,7 +108,7 @@ const Intro = () => {
                                     {getPics(12)}
                                 </p>
                             </span>
-                        </details>
+                        </BoxContent>
                     </div>
                 </div>
             </div>
