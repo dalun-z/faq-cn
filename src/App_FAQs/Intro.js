@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import BoxContent from "../global/BoxContent";
 
 const Intro = () => {
     const getPics = (num) => {
@@ -18,11 +19,11 @@ const Intro = () => {
                 <p className="note">如App發生閃退問題，請參考<span style={{ textDecoration: 'underline', color: 'blue' }}><Link to='/faq-cn/web-faq-page'>POSTRON 後台管理常见问题解答</Link></span>中對應閃退情況的解答</p>
                 <br />
                 <div className="space-y-2">
-                    <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                        <summary className="px-4 py-6">
+                    <BoxContent>
+                        <span>
                             a. 為POS機更改 POS機語言 或 商品顯示名稱
-                        </summary>
-                        <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        </span>
+                        <span>
                             <h3>
                                 1. 點擊POS機主界面的‘設定’功能
                             </h3>
@@ -33,13 +34,13 @@ const Intro = () => {
                             </h3>
                             {getPics(2)}
                         </span>
-                    </details>
+                    </BoxContent>
 
-                    <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                        <summary className="px-4 py-6">
+                    <BoxContent>
+                        <span>
                             b. 為POS機鏈接店内不同的打印機
-                        </summary>
-                        <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                        </span>
+                        <span>
                             <h3>1. 點擊POS機主界面的‘設定’功能</h3>
                             {getPics(1)}
                             <br />
@@ -55,7 +56,7 @@ const Intro = () => {
                             <h3>5. 搜索完畢后點擊‘確認’，打印機會自動鏈接上POS機</h3>
                             <br />
                         </span>
-                    </details>
+                    </BoxContent>
                 </div>
             </div>
         </div>

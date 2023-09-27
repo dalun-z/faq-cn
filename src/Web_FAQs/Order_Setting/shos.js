@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/Doc.css'
+import BoxContent from '../../global/BoxContent'
 
 // Self Help Order Setting
 // 自助點單
@@ -22,11 +22,11 @@ const Shos = () => {
 
             <h1>菜單桌子二維碼</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 下載所選菜單的桌子二維碼
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>a. 選擇想要下載桌子二維碼的菜單</h3>
                         {getPics(2)} <br />
                         <h3>b. 選好菜單后，點擊右側的‘下載桌子二維碼’</h3>
@@ -37,13 +37,13 @@ const Shos = () => {
                         <p>以及對應的‘餐桌管理’的設置</p>
                         {getPics(5)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 設置顧客掃描桌子二維碼下單后餐廳接收訂單的方式
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(6)}
                         <h3>
                             a. 標記1號 ‘二維碼反掃’ 的設置是指顧客掃描二維碼下單完成后會出現一個QR Code，這時需要一個服務員來掃描這個QR Code來確定下單 <br/><br/>
@@ -53,7 +53,7 @@ const Shos = () => {
                             e. 請在結束操作后點擊右上角的‘submit’按鈕以提交所完成的操作，否則將不會生效
                         </h3>
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     )

@@ -1,4 +1,5 @@
 import React from "react";
+import BoxContent from "../global/BoxContent";
 
 const dinein = () => {
     const getPics = (num) => {
@@ -15,49 +16,49 @@ const dinein = () => {
             <br />
             <h3>餐桌管理界面</h3>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         網格圖顯示
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(1)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         平面圖顯示
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
             <br /><br />
 
             <h3>點餐界面</h3>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         更改菜單目錄
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>1. 點擊屏幕頂部圈起的位置更換菜單</h3>
                         {getPics(3)}
                         <br />
                         <h3>2. 在下方選項想要更換的菜單</h3>
                         {getPics(4)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         平面圖顯示
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(4)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     )

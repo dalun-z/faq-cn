@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/Doc.css'
+import BoxContent from '../../global/BoxContent'
 
 const OrderMenu = () => {
     const getPics = (num) => {
@@ -24,19 +24,20 @@ const OrderMenu = () => {
 
             <h1>菜盤</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊屏幕右上角的加號來創建新的菜盤或編輯菜盤
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         2. 添加菜盤
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>添加菜盤有兩種方式</h3>
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1. 關閉複製菜盤：該方式為創建一個全新的菜盤，需要手動往菜盤添加菜盤類別和菜品</h3>
                         {getPics(3)}
@@ -44,7 +45,7 @@ const OrderMenu = () => {
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜盤：該方式可複製所選的菜盤，所選菜盤的所有内容將會複製到新建的菜盤中</h3>
                         {getPics(4)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
             <br /> <br />
 
@@ -52,20 +53,20 @@ const OrderMenu = () => {
 
             <h1>菜盤信息</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 基本菜盤信息與功能
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(5)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 添加新的菜盤
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>添加菜盤有兩種方式</h3>
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1. 關閉複製菜品分類：該方式為創建一個全新的菜盤，需要手動往菜盤添加菜品</h3>
                         {getPics(6)}
@@ -73,13 +74,13 @@ const OrderMenu = () => {
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 2. 開啓複製菜品分類：該方式可直接自動添加所選的‘菜品類別’中的所有菜品到新建的菜盤中</h3>
                         {getPics(7)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         3. 改變菜盤或菜品的展示順序
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    </span>
+                    <span>
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 1.將鼠標放在想要改變位置的菜盤上，這個例子中我們將鼠標放在‘商品’這個菜盤上</h3>
                         {getPics(8)}
                         <br />
@@ -91,7 +92,7 @@ const OrderMenu = () => {
                         <br />
                         <h3>&nbsp;&nbsp;&nbsp;&nbsp; 4. 對想要改變位置的菜品使用上述1-3同樣的方式即可</h3>
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     );

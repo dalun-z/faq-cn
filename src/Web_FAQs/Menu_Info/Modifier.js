@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/Doc.css'
+import BoxContent from '../../global/BoxContent'
 
 const Modifier = () => {
     const getPics = (num) => {
@@ -17,31 +17,33 @@ const Modifier = () => {
 
             <h1>添加改碼組步驟：</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊屏幕右上角的加號來創建新的改碼組
-                    </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
-                    </p>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                    </span>
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         2. 輸入改碼組的基本信息
-                    </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <p>
                         a. 第一名稱與第二名稱為該改碼組的顯示名稱，跟POS機系統上的第一，第二名稱相對應 <br />
                         b. 最小選擇與最大選擇代表了這個改碼組的選擇次數的上限以及下限 <br />
                         c. ’是否可復選‘ 按鈕表示可以重複選擇該改碼組中的任一選項（默認每個選項只能選擇一次） <br />
                         {getPics(3)}
                         <br />
                     </p>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         3. 最小選擇 與 最大選擇 詳細描述
-                    </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <p>
                         以下圖為例：
                         {getPics(1)} <br />
                         <br />
@@ -50,12 +52,13 @@ const Modifier = () => {
                         滿足條件后會自動跳轉到下一個改碼組 <br />
                         假如想設置該改碼組無限制次數要求的話，只需設置成0-0 <br />
                     </p>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         4. 為該改碼組添加選項
-                    </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <p>
                         以下圖為例：
                         {getPics(5)} <br />
                         <br />
@@ -68,64 +71,65 @@ const Modifier = () => {
                         <strong>百分比 ： </strong> 指該選項選擇后需要額外支付原單品金額的百分比的價錢，比如：單品原價為$20，該選項百分比為20%，那麽選了此改碼組的選項后，單品最終價格為:$20*1.2=$24      <br />
                         <strong>固定金額 : </strong> 指該選項選擇后需要額外此選項的固定金額，比如：單品原價為$20,該選項固定金額為$5，那麽選擇了此改碼組該選項后，單品的最終價格為：$20+$5=$25   <br />
                     </p>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         5. 更改改碼組及其選項
-                    </summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <p>
                         {getPics(6)} <br />
                         只需點擊改碼組或選項下方的按鍵
                     </p>
-                </details>
+                </BoxContent>
             </div>
             <br /><br />
             <h1>設置改碼動作</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊屏幕左上角的按鍵來添加或修改 改碼動作
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(9)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 點擊下方的 ‘添加改碼動作’ 增加新的動作
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(10)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         3. 添加改碼動作后，將此動作加進需要此動作的改碼組選項
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(7)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         4. 在該選項中，選擇需要啓用的改碼動作 <span className='note'>注意：只有啓用的改碼動作才能在POS機上使用，沒啓用的改碼動作會顯示為灰色</span>
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(8)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         5. 在POS機中顯示的畫面，下方圈起的部分為 ‘改碼動作’ 的區域。顯示灰色説明沒有啓用
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(11)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
 
         </div>

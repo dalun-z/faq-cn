@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/Doc.css'
+import BoxContent from '../../global/BoxContent'
 
 const Tag = () => {
     const getPics = (num) => {
@@ -24,35 +24,35 @@ const Tag = () => {
 
             <h1>添加標簽</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊界面右上方的加號按鍵添加新的標簽
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content" >
+                    </span>
+                    <span>
                         {getPics(1)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 填寫標簽的基本信息，可用顔色區分開不同功能的標簽
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600 ">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         3. 下圖為標簽在後臺管理的設置以及對應在POS機上展現的標簽界面
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>後臺管理的‘標簽管理’界面</h3>
                         {getPics(4)} <br />
                         <h3>POS機上對應的顯示界面</h3>
                         {getPics(3)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
 
         </div>

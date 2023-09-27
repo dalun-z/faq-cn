@@ -1,4 +1,5 @@
 import React from 'react'
+import BoxContent from '../../global/BoxContent'
 
 const Promo = () => {
     const getPics = (num) => {
@@ -15,20 +16,20 @@ const Promo = () => {
 
             <h1>添加新的優惠</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊界面右上角的加號鍵來添加新的優惠活動
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 填寫該優惠活動的信息
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>
                             a. 優惠名稱：該優惠的顯示名稱 <br />
                             b. 優惠類型：<br />
@@ -39,20 +40,20 @@ const Promo = () => {
                         </h3>
                         {getPics(3)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         3. ‘是否二維碼優惠’ 與 ‘推送管理’ 的聯係
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>
                             儅打開‘是否二維碼優惠’后，會在所有優惠列表的右側‘操作’欄下看到有多出一個QR Code的圖片 <br />
                             <p className='note'>只有打開‘是否二維碼優惠’這個功能，才能夠在‘會員管理’下的‘推送管理’功能通過短信或Email推送該優惠給顧客</p>
                         </h3>
                         {getPics(6)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     )

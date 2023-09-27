@@ -1,4 +1,5 @@
 import React from "react";
+import BoxContent from "../global/BoxContent";
 
 const TableMap = () => {
     const getPics = (num) => {
@@ -14,23 +15,23 @@ const TableMap = () => {
 
             <h1>管理餐桌</h1>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊圖示位置管理餐桌
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(1)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 點擊右上角‘Add Table’添加桌面，以及‘Save’來保存操作
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     )
