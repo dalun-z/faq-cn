@@ -1,4 +1,5 @@
 import React from 'react'
+import BoxContent from '../global/BoxContent';
 
 const POS_Settings = () => {
     const getPics = (num) => {
@@ -36,11 +37,11 @@ const POS_Settings = () => {
                 <br />
             </p>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         門店pos主界面模塊設定
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <p>
                             {getPics(2)} <br />
                             在啓動POS機時，改屏幕作爲主要界面。您可以通過拖拽和拉動圖標輕鬆地將它們安排到您喜歡的位置。<br />
@@ -49,12 +50,13 @@ const POS_Settings = () => {
                             {getPics(6)}
                         </p>
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         門店POS訂單模塊設定
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <p>
                             {getPics(3)} <br />
                             當收銀員在POS上爲顧客下訂單時，該屏幕作爲菜單部分的操作欄。爲了根據使用頻率組織圖標，只需將它們從左上角拖動到右下角。 <br />
@@ -63,12 +65,13 @@ const POS_Settings = () => {
                             <br />
                         </p>
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         門店pos付款模塊設定
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <p>
                             {getPics(4)} <br />
                             ▶當您在操作欄中選擇“結算”功能時，該屏幕將顯示各種支付方式，供顧客結算賬單使用。<br />
@@ -78,7 +81,7 @@ const POS_Settings = () => {
                             <br />
                         </p>
                     </span>
-                </details>
+                </BoxContent>
                 <br />
                 <p>
                     ■ 第二個圖標代表“菜單”功能，允許用戶爲所選的POS設置特定的菜單。但是，需要注意的是，<br />

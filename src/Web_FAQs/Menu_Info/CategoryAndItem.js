@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/Doc.css'
+import BoxContent from '../../global/BoxContent'
 
 const CategoryAndItem = () => {
 
@@ -31,51 +31,54 @@ const CategoryAndItem = () => {
             <h1>類別</h1>
             <h3>添加類別步驟：</h3>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊屏幕右上角的加號來創建新的類別
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(2)}
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         2. 輸入類別的基本信息然後點擊提交
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(3)}
                         <br />
                     </span>
-                </details>
+                </BoxContent>
             </div>
             <br />
 
             <h1>菜品</h1>
             <h3>添加菜品步驟：</h3>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 點擊想要添加菜品的類別
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(4)}
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         2. 點擊菜品部分的右上角的加號來為該類別添加新的菜品
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(5)}
                         <br />
                     </span>
-                </details>
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                </BoxContent>
+
+                <BoxContent>
+                    <span>
                         3. 菜品設置的詳細解釋（帶*號為必填項）
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <h3>厨顯名稱</h3>
                         <p>此名稱將被後厨的打印機隨著訂單詳情打印出來是用以顯示在後厨以方便不同語言的厨師能夠理解</p> <br />
 
@@ -145,33 +148,33 @@ const CategoryAndItem = () => {
                         <br /> <br />
                         {getPics(6)}
                     </span>
-                </details>
+                </BoxContent>
             </div>
             <br />
 
             <h3>菜品信息更改</h3>
             <div className="space-y-2">
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         1. 菜品區域上方的功能欄可快速的更改單個或多個菜品的信息（如：標簽，稅，打印機，改價等等）<span className='note'>做完任何更改后需點擊右上方的保存才會完成更改</span>
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         {getPics(8)}
                         {getPics(9)}
                     </span>
-                </details>
+                </BoxContent>
 
-                <details className="w-10/12 rounded-lg ring-2 ring-purple-600">
-                    <summary className="px-4 py-6">
+                <BoxContent>
+                    <span>
                         2. 菜品 與 打印機 的關係
-                    </summary>
-                    <span className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600 box-content">
+                    </span>
+                    <span>
                         <p>菜品默認是從POS機内置打印機上（如圖所示，-1為POS機的内置打印機）打印出單據</p>
                         <p className='note'>只有儅把該菜品分配給了某個打印機中的一個，儅菜品在下單后才會從該打印機打印出該單據的基本信息</p>
                         <p className='note'>同樣，做完打印機分配的操作后，請點擊右上方的保存來完成更改</p>
-                        {getPics(10)} <br/>
+                        {getPics(10)} <br />
                     </span>
-                </details>
+                </BoxContent>
             </div>
         </div>
     )
